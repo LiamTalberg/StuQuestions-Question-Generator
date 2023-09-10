@@ -1,0 +1,64 @@
+?L12.6: 11'00"-13'00": Is there a way to adapt the algorithm to draw lines in the network estimating cutoffs between different communities?
+
+?L12.6: 4'00"-6'37": Since a network is a constraint when constructing the generative model, how can it be expressed quantitatively or qualitatively by a user or anybody doing such an analysis?
+?L12.1: 11'04"-11'49": Why do we use a Gaussian distribution?
+?6.4: 5' 16"-4' 53": What techniques can we use to determine how to partition data to determine context?
+?L12.6: 9'42"-9'45": How do you know if two nodes are close to eachother/measure the distance?
+?#A# True or False: Text can be associated with nodes of a network and subnetworks. (A) True (B) False    
+?L6.1: 6'20''-7'15'': How are the term weights for the different aspect segments discovered?
+?L12.6: 9'20"-9'53": Would we be able to use a negative edge weight in the instantiation of NetPLSA?
+?L12.7: 5'40"-9'40": How accurate and useful is iterative casual topic modeling and in what situations should it be used?
+?L12.1 3'30"-4'30": Would it be better to weight unbiased reviews more rather than accomodating ratings for biased reviews?
+
+?L12.6:5'10"-5'30": What is the purpose of the regularizer function?
+?L12.1: 04'50"-09'25": How are the aspects determined? In addition, how do we know what words correspond to each specific aspect?
+?L6.8: 5'27"-5'58": What if we combined the idea of topic mining and opinion mining? what is the use for this?
+? L12.7 11'30"-13'40": How do we analysis causality or correlation in a multiple language case?
+?L12.5: 7'40''-8'03'':Why the three different colors shown in the "choose a topic" section are not perfect rectangles?
+?L12.7: 1'57"-3'54": How do we deal with mining topics with time series supervision?
+?L12.1 10'00"-14'00": Can we maximize r(d|param) in an end-to-end fashion (without explicitly maximizing for alpha)?
+
+?L12.5: 3'25''-4'01'':What does it mean by assume context-dependent topic coverage?
+?L6.4: 4'12”-4’24”:Can context be used to partition text?
+?L12.9: 1'23"-2'33": What is the functionality for all of text categorization in real life?
+?L12.1: 6'11"-9'30": This reminds me of a neural network!
+
+?L12.2: 9'30"-10'43": Would the user rating kind of be similar to a normalized weighting of items/stars?
+
+?L12.1: 1'11"-2'12": What does aspect i mean exactly in Latent Rating Regression?
+?Any resources about learning "reviewer preference analysis" mentioned in 6.1?
+?L12.3: 0'00"-1'20": If text based prediction is based on finding patterns, how does our system understand it's own prediction when it's based on pattern recognition for what we found. In the sense, how our predictions themselves contextualized and does the system understand what it's predicting?
+?L12.2: 7'43"-7'43": Where did those ratings come from?
+?L6.1: 11'14"-12'13": I don't undrstand the multivariate gaussian prior and how it works to model the weight.
+?L12.3: 3'36"-6'22": What is stopping data mining loop to produce fake data, and ultimately have fake data feed back into the loop? 
+?L6.5: 5'36"-6'40": How are views chosen for CPLSA?
+
+?L12.7: 4'39"-7'26" What does These Analysis do? Is it very efficient? Is there any application of it?
+?L6.4: 5'34''-5'54'': In order to find the difference in the topics published by different authors in the USA vs outside USA, why is there a requirement to partition the data based on the author's affiliation, why is partitioning based on location as context not enough?
+
+?L6.3: 03'06"-04'29": Can we treat partitioning a set of text documents as a text clustering problem or is that not a good approach because it might not partition documents into distinct sets such as date published but into a mixed set that's a mixture of all the variables found?
+?12.2: 5'30"-8'55": which formulas are being used in this process? How did we get these values?
+
+?L7.4: 2'20"-2'35": How can we adapt the vector space retrieval model to discover paradigmatic relations?
+?L6.4:3'00"-3'20": What is the advantage of partitioning data for text mining?
+
+?L12.4: 2'58"-3'40": If we are using context to partition data, how can we be sure that the partitions used are correct else risk drawing poor conclusions?
+
+?L12.2: 2'09"-6'35": What is the motivation behind Mining Topics with Social Network Context? How does this affect the population of social media users?
+
+?L12.3: 9'39"-9'54": How does non-text data help when we infer values of real-world variables?
+?L12.1: 03'59"-07'13": What is the significance of the two stages used when solving Latent Aspect Rating Analysis?
+?L12.6: 2'12"-6'08": How is the content in each subnetwork characterized by the text?
+?L6.2: 4'20"-4'30": What does the number after each word indicate?
+
+?L12.1: 9'00"-9'30": What do the parameters represent in conditional likelihood?
+
+?L12.8: 10'25"-12'17": What's next examples have been given. However the input, the quality of the data plays a huge role, what are the state of the arte techniques for this? Or there is the hope that the model researches produce would be robust enough to do it?
+?L12.7: 8’50”-9’00”: Can you please go further in depth with the split words, and how they factor in to the rest of the pipeline?
+?L12.1: 7'15"-8'20": So to clarify, what differentiates PLSA from LARA is that LARA attempts to gauge weights and ratings, whereas PLSA mainly attempts to gauge topic coverage in a document?
+?L5.2:6'45"-7'00": What if the data cannot be separated by a line?
+?L12.7: 14'27"-15'25": Can you elaborate on how to introduce the data in times serious and get the biased topics?
+
+?L12.7: 2'23"-5'15": How do we determine the initial input topic model, by manual input?
+?L12.3: 3'48''-4'16'': Why can we assume these are correct?
+?L6.5: 2'45''-2'50'': I am just wondering if we can mine non-text data with text data as context using CPLSA because it just swap the conditional likelihood. 

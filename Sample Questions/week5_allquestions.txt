@@ -1,0 +1,99 @@
+? L5.1: 4'46" 7'16": How do different types of feedback integrate into different page rank algorithms?
+
+?L5.8: 0'00"-1'00": How are the results from PageRank and HITS integrated with the results of a vector space model or language model?
+
+?L5.7: 13'13" - 14'33": For the equilibrium equation why is the initial term (1-a)?
+
+?L5.6: 3'40"-4'00": Is relevance like this always guarenteed to be a good thing?
+
+?L5.2: 9'45"-10'37": Why is the vector truncated when using the Rocchio formula in practice?
+
+?L5.2: 5'23"-5'41": How do you determine the alpha, beta, gamma terms in the Rocchio Feedback formula?
+?L5.2: 4' 10"-5' 20": How do we determine the alpha beta and gamma parameters when moving the query vector?
+
+?5.4: 4'50"-6'00": Is there anything actually enforcing crawling coutresy or do people overload websites with crawlers if they want to?
+?L5.5: 12'23"-12'40": What are the counts of 1's exactly?
+?L5.8: 2'20''-4'10'': Are the equations for hub and authority score guaranteed to converge or can they go to infinity?
+?L5.2: 4'25"-4'45": How do you compute the centroid in the Rocchio Feedback formula?
+?L5.3: 1'51"-4'50": What are the drawbacks of using the KL Divergence Retrieval Model?
+?L5.2: 2'30"-3'30": If we move the query vector to better fit the area of relevant documents, wouldn't this be different from the original query? What would this new query vector mean in human readable language?
+?L5.2: 3'50"-3'58":What does it mean for a document to be negative?
+?L5.4: 6'30"-9'53": Major Crawling Strategies?
+?L1.2: 1'25"-3'17": What's the meaning of parameter lambda?
+
+?L5.5: 09'05"-10'35": May you explain why each word gets count of 1? Why are we not mapping each vocabulary word to its count instead?
+?L5.2: 9'50"-10'06":I do not understand why negative examples tend to destruct queries in all direcitons?
+?L5.3: 14'51"-15'50": why lambda=0.7 can produce more noise than lambda=0.9 according to the generative mixture model?
+
+?L5.6: 4'19"-9'16": How do we rank links and compare this or interleave this with ranking actual webpages?
+
+?L5.8 1'50"-2'30": How to convert the existance of links between pages into the adjacency matrix?
+?L5.3: 4'23''-4'37:How can we get Query Likelihood by plugging in Query LM to KL-divergence?
+?L5.2 10'27"-11'15": What is "topic drifting?" Is this the same thing as overfitting?
+?L5.2: 4'50"-4'55": What's the meaning of parameters alpha and beta?
+
+?L5.3: 2'21''-3'03:How are Query Likelihood and KL-divergence connected with each other?
+?Do all search engines only use implicit feedback system as its the most convienient for users while giving semi-reliable results.
+?L5.2: 9'00''-9'30'': How do we determine the constant terms alpha beta in Rocchio?
+
+?L5.5: 14'00"-14'30": What is an inverted index means exactly? What does an inverted index  consist of?
+
+?L5.4 6'12"-6'25": What exactly do hidden URL's mean?
+
+?L5.4: 4’08”-4’20”: How can a programmer with minimum effort create an application that can run a large cluster in parallel?
+?L5.5: 5'10"-10'31": Is this implementable with a dictionary? 
+
+?L5.8: 1'45"-4'59": Is the adjacency matrix just a heaviside of the pagerank? Like why even bother with HITS?
+
+?L5.2: 1'11"-5'46": Is Rocchio feedback only applicable to a 3d vector model or multidimensional vector models too?
+?L 5.2 4'20" - 5'50": What are good values for alpha, beta, and gamma in the Rocchio Feedback Model?
+
+? L5.3: 16'30"-17'27": I still do not understand: How does a high lambda value in this case make the model "more deterministic", i.e. have a proper representation of important words? Wouldn't this give a greater importance to the words in the background LM?
+?L5.2: 2'30"-3'30": For the circle drawn for the top-ranked documents, how would moving the query back to some position improve the retrieval accuracy? How does it being close to positive vectors work intuitively?
+?L5.3: 2'00"-2'01": how did they come up with KL-divergence
+?L5.3: 2'20"-4'10": What is the theta hat here? What is the difference between Q and q? 
+
+?L5.1: 2'34"-4'11": I didn't quite understand pseudo relevance feedback. I did not understand the explanation of assuming the top ranked documents as relevant.
+?L5.2: 7'10"-8'22": How do the parameters: alpha, beta and gamma control the movement we have in the concept of Rocchio feedback? What is the significance of each of them?  
+
+?L5.2: 3'30"-4'15": Wouldn't moving the query vector closer to the rest create an overfitting model? 
+
+?L5.7: 5'10"-8'47" Need more example on HITS algorithm
+?L5.3: 2'15''-4'30'': I am not sure I understand how generalizing query likelihood to KL-divergence helps in incorporating feedback into the model, could you please explain?
+
+?L5.4: 6'27"-6'42": Is the BFS done in parallel across independent sections of the page network? Also, do we start at a particular page always (like the most accessed page) or is anywhere in the network ok?
+?L5.7: 12'30"-14'30": I don't quite get why the propagation scores are like this. Why d1 has a very low score while d2 has a very high score. Could you explain more?
+?L2.5: 1'30" - 4'00": Can you go over how Rocchio Feedback works?
+?L5.1: 3'10"-3'16": How can Psedo Feedback be useful if the top 10 documents are assumed instead of actually judged by the user?
+?L5.4 6:33-6:42 Is DFS also used for crawling or just BFS?
+?L5.4: 3'23"-3'42": What type of heuristics can be applied to analyze links?
+
+?5.5: 4'06"-4'40": Is it possible to find the documentation of the lower-level code for Google's MapReduce?
+?L5.4: 2'45"-2'55": How does MapReduce help with the scalability of web searching? 
+?L5.1: 04’56”-05’26”: Is there an element of privacy to be considered in implicit feedback? How much does feedback in general play a role in relevance judgement? 
+?L5.4: 7:30-7:50: Why does BFS balance server load, why does DFS not? 
+
+?L5.1: 4'45"-5'00": How are data like clickthroughs reliable when "users" may not be real users and instead bots?
+
+?L5.2: 04'17"-05'15": Rocchio Feedback would be like a triplet loss? Does this algorithm has any relation with SVM?
+?L5.3: 3'40"-4'00": Can you please review the KL-divergence equation on the slide and explain what alpha represents?
+?L5.1: 0'21"-6'36": Which is the most common feedback retrival method used today? 
+?L5.1:4'00"-4'20": The evaluation of a IR system is depend on users. Why can we get feedback without user? 
+
+?L5.2 4'44 - 5'00 how is Rocchio formula deduced?
+
+?L5.3 2'00 - 3'00 how to KL divergence retrieval model in examples?
+
+?L5.8: 4'00"-4'39": Can you compare a bit more between the PageRank and HITS algorithms?
+
+?Generic Mixture Model>Kullback-Leibler Divergence Retrieval Model>Link Analysis=HIPS=PageRank>Rocchie Feedback>Web Indexing
+
+?L5.4: 0'00"-11'00": Does local search engine use different methods to crawl the websites or it is the same?
+
+?L5.3: 7'44'' - 15'34'': From the formula, it is hard to understand why higher lambda will lead to less common words appear on the final list.
+?L5.7: 7'32''-8'42'': What happens when there are zero entries in the matrix?
+?L5.2: 5'00''-5'05'': For the new query updated by the formula, how does it look like exactly? Will it be a query that contains more common words amoung the relevant documents? What is the meaning of parameters regarding to the actual words? Can we transform the new query vector back to the actual words?
+?L5.3: 16'45-17'15: why the returned results are more descriptive words of a certain topic when we don't rely much on background model often?
+
+?L5.5: 10'50"-11'20": Why the counter would treat the two "World" seperately?
+

@@ -1,0 +1,61 @@
+?L7.5: 7'30"-9'00": Why is speech act = request the hardest thing to do for this sentence, since handling requests is a relatively straightforward task for things like Amazon Alexa or Google Drive?
+
+?L7.7: 9'27"-10'33": Identical words can represent different meanings; how does that play an effect in calculating similarities between words?
+?L7.2: 2' 16"-2' 30": Why is an entity-relation graph a good way to represent the obserable world?
+
+?L7.9: 7'03"-7'20": Are xi and yi supposed to be the same words?
+?L7.8: 8'00"-8'50": Why is there overlap of words in paradigmatic relation mining?
+?L7.7: 4'50"-7'10": How often are Mine Word Associations used and why do they help improve the accuracy of NLP tasks such as POS tagging?
+?L7.1: 1'20"-2'20": High-quality information and actionable knowledge are considered different, but can't people make decisions based upon high-quality information, therefore making all knowledge somewhat actionable?
+
+?L7.1:4'45"-4'50": What is the relationship between text retrieval and text mining?
+?L7.4: 0'20"-1'17": Why doesn't deep understanding scale? What is preventing it? Is it computational expense, or for some other reason?
+?L7.8: 05'00"-05'10": What is the bound on the number of possible contexts?
+?L1.5: 3'09"-3'31":What techniques are used for language like Chinese to represente in a sequence of word?
+?L7.8 9'46"-11'30": Is this method similar to term appearence which is talked in the begining of the course?
+?L7.8: 13'11''-12'24'':Why EOWC favors matching one frequent term very well over matching more distinct terms?
+?L7.8: 12'51"-13'34": How to address the problem of treating every word equally when calculating similarity?
+
+?L7.8: 11'09''-11'40'':Why the probability that two randoly picked words are identical?
+?Are there any other applications for Logic predicates being used in text representation?
+?L1.5 6'58"-7'28": What algorithm is used for the logic predicates method?
+?L7.9: 1'23"-2'33": How would the IUF impact the traditional function? 
+?L7.8: 8'30"-13'00": What could be a downside with using EOWC?
+
+?L7.2: 0'16"-1'25": Can text mining be used to predict sentiments amongst documents?
+?13'14" - 13'45": How IDF(w) is defined?
+?L7.2: 5'40"-5'45": What does the professor mean when he says knowledge provenance? Does it have to do with knowledge interpretation, however it seems that representing entities is a challenge with text data and how is that going to be solved? It seems machine learning can do a lot of curve fitting but it seems these systems don't get context so are we even "interpreting text data" as humans do that has context or is it just a lot of curve fitting that has worked a decent amount to a current extent in today's systems?
+?L7.1: 4'12"-4'13": How are text mining and text analytics different
+?L7.4: 2'04"-3'28": I was wondering if POS tagging and Shallow Parsing for NLP stem from similar necessities in text mining?
+
+?Are all words that are not in a paradigmatic relation in a syntagmatic relation? 
+
+?L7.7: 5'10"-8'47" More examples of how to represent data?
+?L7.7: 2'04"-2'10": Can we consider a syntagmatical relation to be a superset of a paradigmatical relation? From the definitions, if two word are related paradigmatically aren't they also related syntagmatically?
+?7.8: 7'00"-8'00": if the bag of words from the two context sentences are pseudo-documents, then what would the pseudo-query be?
+?L1.5:4'20"-8'10": What kind of data structures would be used to add on additional levels of NLP to the sequence of words storage? Or would all of these structures be stored separately?
+
+?L7.4: 2'20"-2'35": How can we adapt the vector space retrieval model to discover paradigmatic relations?
+?L1.4: 1'10"-1'16": I don't understand why we can't do POS tagging accurately? 
+?L7.3: 5'45"-6'24": How can common sense reasoning be incorporated into NLP algorithms?
+
+?L7.4: 2'00"-3'00": What statistical methods combined with machine learning models work best for text data
+
+?L7.6: 1'00"-2'00": What's the difference between "String" and "Words" in text representation?
+?L7.1: 02'07"-02'38": Will making data and text more concise take away from the actual content? Is there a choice to be made between in-depth content vs giving the users a more broad overview of the text data?
+?L7.6: 3'58"-8'26": What types of data structures are used to store this text information after its retreival?
+?L7.9: 13'00"-14'00": How can we adapt the vector space retrieval model to discover paradigmatic relations?
+?L1.8: 12:30-12:35: When does EOWC not work well? 
+
+?L7.1: 8'50"-9'30": What problems does mining non-text data pose with regard to storage space? 
+
+?L7.4: 02'00"-03'30": Domain specific English could be very different from standard English, how to target those differences? Even with annotations it would be confusing to make a proper difference? Is generalization considered achiaveble in this context?
+?L7.8: 11'15"-11'20": Would the application of the formula displayed at the bottom of the slide still work even if there is a word that is identical in another document, but is from a different part of speech?
+?L1.5:7'40"-8'00": what the "Speech Act" here means?
+?L7.9 13'21 - 13'50 How does BM25 relate to Sim?
+
+?L7.7: 14'48"-15'11": Can you give an example of paradigmatically related words that have syntagmatic relation with the same word?
+
+?L7.4: 1'15"-3'30": Is is possible for the tagging or NLP analysis successful rate increase after some machine learning? 
+
+?L7.3: 4'35''-4'46'': Can saying a sentence possibly represent any other action?

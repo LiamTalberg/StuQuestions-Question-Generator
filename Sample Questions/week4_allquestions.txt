@@ -1,0 +1,90 @@
+?Lesson 4.3: 10'38"-11'38": How do you determine which estimation method would be most effective to solve a particular problem?
+
+?L4.7: 1'00"-7'00": How do we pick the best values to use for lambda and mu when doing the smoothing?
+
+?L4.1: 11'22" - 12'44": I am having trouble understanding why or how the R value helps NLP?
+
+?L4.5: 1'30"-1'52": Why is the log term of p(q|d) independent of the document?
+
+?L4.3: 10’15”-10’20”: Why can we assume all words in a query are independent?
+?L4.5: 2' 10"-2' 50": Why do we ignore the last part of the log p(q | d) formula when ranking documents?
+
+?4.3: 2'20"-3'23": Making the assumtion that each query word is generated independently seems weird because when a user creates a query, usually the words are not indpendent. Is anything used to try and bridge the gap between indpendently generated query words and actual queries?
+?L4.5 4'48''-5'50'': Could you further explain the doc length normalization a little bit since I do remember it should be a term as a mutiply factor instead of addition factor.
+
+?L4.2: 5'43"-5'50": what is the probability exactly?
+?L4.5: 4'15''-5'40'': How exactly does nlog(alpha_d) relate to doc length normalization?
+?L4.2: 4'45"-5'00": Why are there only n-1 parameters in the generative model?
+?L4.7: 0'15"-9'40": Between JM Smoothing and Dirichlet Prior Smoothing, which is better in which situation and what is the main difference between their ranking functions?
+?L4.3: 0'30"-2'00": If the user poses a query not related to the document they just observed, wouldn't the query likelihood retrieval model be less accurate than basing results off the query itself?
+
+?L4.1: 8'40"-9'00": In Query Likelihood Retrieval Model, does the language model ensure that the assumed probabilities for "imaginary documents" are sufficient?
+?L4.2: 5'00"-5'08":Why would we need the statistical language model to generate words for us, instead of sequences? 
+?L4.6: 0'35"-1'46": Query Likelihood+smoothing
+? L 4.2 4'00" - 4'30": does the sequence of words matter in the query? Is it suggesting that querying "baseball game yesterday" is the same as querying "baseball yesterday game"? 
+
+?L4.5: 4'15"-4'17": So what does IDF weighting have to do with this?
+?L4.3: 06'40"-07'50": I am confused as to what is meant by "sampling words from a doc model". May you clarify?
+?L4.2: 1'45"-2'11": if the probability of one word is too low, will it underfloat to 0? If yes, how to deal with this type of question?
+?L4.7 11'00"-13'00": Which one is better, JM smoothing or Dirichlet Prior smoothing?
+?L4.2:7'36''-10'20'':Confused about ML Estimator.
+?L4.7: 5’00”-6’36”: What’s the difference between Jelinek-Mercer smoothing and Dirichlet prior smoothing since they have very similar forms?
+
+?L4.5 4'55"-5'40": What exactly does alpha_d mean in English? 
+?L4.3: 9'04"-9'10": Why do we need to log the probabilities in this formula? 
+?L4.5:3'00''-6'20'':What if we don't ignore the last part of ranking?
+?Why not have a standard smoothing language model? Whats the point of having multiple, if at the end of the day, they still assign probabilities while including unseen words?
+?L4.4: 6'32"-10'47": Which part of the formula for the ranking function with smoothing actually implements smoothing?
+?L4.4: 7’18”-7’38”: Why do we assume that in our smoothing method each word that aren't ovserved would have a different form of probability? 
+
+?L4.7: 9'44"-11'44": Can we have examples on how to rank using the smoothed ranking functions? 
+?L4.4: 6'47"-9'46": Why even care about query words not matched in d? These sums are getting confusing.
+?L4.2:4'53"-7'55": Is any normalization necessary for the Unigram language model?
+?L4.5: 3'03"-3'45": Why P(Wi|d) represent TF weighting? How does this probability add a limit/bound to the score of a certain word? In week3, one of the TF weighting was log(x+1), so why TF here is P(Wi|d) instead of log(P(Wi|d)) ?
+
+?L4.5: 4'43" - 4'50": I don't agree with the statement that "if the document is long, we need less smoothing". What if a docment is long but in a bad way, meaning that it has many repeated words (less unique words)? In this case, the probability of being able to observe all/more words won't increase. 
+? L4.6: 5'22"-5'36": Why do we say that the smoothing variable 'mu' is dynamic in this case? When exactly is the variable changing and why? How does it behave differently than 'lambda'?
+?L4.4: 2'30"-3'30":Why taking away the probabilitiy mass from observered words help us assign probability to words not seen in the document?
+?L4.2: 5'33"-5'35": When is Unigram LM used
+?L4.1: 8'35"-11'30": What is the conditional probalility mean? Does it mean given the document guess the query which returns this document? And then we compute the probability of guessed query and the given document? What does it mean to say a user likes a document, if the query is unknown? (How do the user click the document if he didn't enter a query?)
+
+?L4.2: 4'41"-4'57": Why do we have N-1 parameters? Don't we sum up the probabilities from w1 to wN? 
+?L4.3: 2'04"-4'08": Since not every query can be drawn from the documents, does that mean that query generation and query likelihood eventually become better (improving doc model) as query inputs increase? 
+
+?L4.3: 4'30"-4'50": When doing query likelihood are there cases were the user writes the query using words that depend on previous words?
+
+?L4.1: 9'15"-9'25": What is the assumption we make while calculating the query likelihood.
+
+?L4.7: 5'10"-8'47" Poor explanation of how to derive the pseen/alpha varible, need mathematical explanation.
+?L4.6: 5'46"-6'22": Does the smaller coefficient for longer documents i.e. lesser smoothing make it harder for models to come up with more accurate retrieval through probabilistic techniques?
+?L4.7: 6'00"-9'45": I am not quite sure whether increasing mu would increase the overall likelihood of a certain word, or reduce it. It seems that mu occurs in both the denominator and the numerator of the entire equation.
+?L4.3: 7'00" - 9'00": Can you go into more detail as to how the query likelihood retrieval function works?
+?L4.1: 4'40"-4'45": I don't get the notation used in the model. I understand R is the contraint, but what are d and q?
+?L4.6-4.7 Is there one smoothing function better or more common than the rest?
+?L4.3: 2'23"-3'26": Why would we assume each word in the query is chosen independently when users often chose entire phrases for a query at once?
+
+?L4.4: 10'30"-11'30": What's the meaning of rewriting the ranking function with smoothing?
+? L5.3 16’18’’-17’21’’: Why is lamda higher makes the common words disappear? According to the formula, higher lamda results more involvement of background model. Wouldn’t this favors the occurrence of more common words?
+
+?L4.1: 9'04"-10'10": Does this assumption still hold in production? It seems like we have to use this assumption to calculate the probability. 
+?L4.1: 08'20"-10'24": Is it possible to glean meaningful information about for probabilistic retrieval models from something other than clickthrough data?
+?L4.2: 11'30"-14'10": How does one choose which language model to use for a specific set of text? Are some LMs better for some types of texts than others?
+?L4.7: 1:40-1:47: How does lambda affect p(w|d)? 
+
+?L4.1: 7'51"-8'20": Are there any shortcomings of our assumption that a user formulates a query based on an imaginary relevant document?
+
+?L4.2: 00'44"-02'28": Since context is what somehow gives meaning to a word, and helps with ambiguity.How do we consider the meaning of words with respect to their context? I might be understading wrong there is not way to deal with ambiguity so far.
+?L4.6: 3'20"-4'00": Can you please explain how you get the network and mining values using the equation?
+?L4.1:1'19"-1'35": why you said that "The classic probabilistic model has led to the BM25 retrieval function"? What is the probabilistic interpretation of BM25?
+?L4.4 6'11 - 6'30 how to smooth a LM?
+
+?L4.7 8'32 - 8'50 why to deduce the function of Fdir?
+
+?L4.6: 6'38"-8'30": How do we choose the coefficient of pseudo-counts? On the slides it just says it should be positive. 
+
+?L4.3: 0'10"-1'00: Why do we need to predict the likelihood of the query? Or what's the usage for that?
+
+?L4.7: 11'13''-11'25'': What is the benefit of a less heristic retrieval function?
+?L4.3: 7'50''-7'55'': For the improved query likelihood with language model, do we apply background model to all query likelihood or should we only apply specific topic model? If we apply topic model for each document, how can we compare the query likelihood if the users actually have a cross-topic document in mind?
+?L4.4: 7'33"-8'40": What's the function of alpha here, and how to choose its value?
+

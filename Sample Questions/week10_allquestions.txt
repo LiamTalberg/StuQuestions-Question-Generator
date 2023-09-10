@@ -1,0 +1,58 @@
+?L10.5: 10'00"-15'00": What's the best way to choose the appropriate k for running k-means clustering?
+
+?L10.3: 3'45"-4'26": When using the maximum likelihood estimator for parameter estimation what does arg max mean and what is the meaning of the result that it gives you?
+?L10.9: 19'42"-20'25": How do we determine how much we should smooth?
+?4.9: 17' 37"-18' 52": Why does smoothing achieve discriminative weighting?
+
+?L10.3: 1'25"-1'35": what does theta represent?
+?#A# True or False: in Top-Down Clustering, we gradually partition the data into smaller clusters. (A) True (B) False    
+?L4.7: 9'00''-10'10'': What is hierarchical categorization and how is it useful?
+?L10.5: 5'12"-6'00": In what scenarios do the three popular group similarity algorithms result in the best accuracy?
+?L10.1 7'00"-7'50": Can a cluster for words be compared to clusters containing larger objects, like groups of documents?
+
+?L10.9:2'00"-2'15": How do we use generated models to do text categorization?
+?L10.3: 04'15"-04'25": What is the most efficient way to find lambda star? Iterating through all combinations of parameters seems tedious.
+?L4.2: 0'27"-0'58": What is the advantages and disadvanatges for probability and similarity approch repesctively?
+?L10.2 3'54"-4'30": Is it possible to have the amount of topics shared among the docs more than the amount of docs?
+?L10.5: 3'01''-3'10'':What exactly is Hierarchical Agglomerative Clustering?
+?L10.5: 3'52"-6'29": How do we choose the way to compute a group similarity based on different variations?
+
+?L10.5: 3'01''-3'04'':What exactly is Hierarchical Agglomerative Clustering?
+?Should you first determine the class a text belongs to and then cluster?
+?L4.5 14'45"-15'00": What exactly are differences between K means and EM algo?
+?L4.2: 4’08”-4’20”: What is the motivation for test clustering?
+?L10.9: 1'23"-2'33": What is the functionality for all of text categorization in real life?
+?L10.3: 2'30"-4'00": Can you use a different model than k unigram LMs?
+
+?L10.8: 4'20"-5'20": So we are throwing all the data onto a neural network to figure out more categorizations?
+?L4.5: 9'09"-10'00": What are examples of criteria of choosing single links over complete links and vice versa?
+?difference between generative probabilistic model for cluster and categorization?
+? L4.1: 5'30"-8'00": Is the general idea of clustering, then, to simply put together similar text objects so we can generalize/aggregate multiple things into one and treat them as one item to simplify a collection? I don't fully understand the benefits of this in things like search results; wouldn't you still want to treat these results as separate entities for the user?
+?L10.8: 0'00"-2'30": For text categorization being used, it looks even with unsupervised techniques we hit a road block in terms of actual understanding of the topics, what is going to be the future of text categorization where the model understands or has some schema to see how the topics relate the way humans do?
+?L10.2: 3'20"-3'20": Are there equations with more inputs?
+?L4.9: 24'10"-25'22": What is the intuition in scoring based on ratio rather than compare two scores? Why the log of ratio is the weight?
+
+?L10.6: 0'43"-5'07": How does clustering deal with outliers in a cluster of data? For eg: in young culture, if tide pods are a data point to online social media content in that age group, which in reality belongs to that cluster but will be seen as an outlier, because this has no similarity to other kinds of social media content? 
+?L4.3 : 4'10"-4':25": How does exponiating the probability by c(w,d) change from x_j to w?
+
+?L10.4: 5'16"-8'29" What Is Good Clustering? What Is Cluster Analysis?
+?L4.9: 21'00''-22'05'': I did not understand how performing smoothing of word distribution using the background model helps in the discriminative or IDF weighting of words as well.
+
+?L4.5: 11'28"-14'56": In k-means clustering, do we get better results by choosing k to be the number of clusters we want or can we do better by choosing k > n where n is the number of clusters and then manually assigning categories based on what we've learned about the clusters i.e. considering clusters as features of documents?
+?L10.9: 0'00" - 5'00": Can you explain more about how these models help in text categorization?
+?L7.4: 2'20"-2'35": How can we adapt the vector space retrieval model to discover paradigmatic relations?
+?L10.1: 5'06"-5'31": In the example provide there are two given ways to differentiate clusters; however, in real situations how can clusters be identified in data that is more continuous than discrete?
+
+?L4.2: 0'53"-1'30": What other type of text clustering models support a document that can cover multiple topics? 
+?L10.3: 6'15"-8'20": What's the advantage of adding prior (Bayesian)?
+?L10.1: 02’21”-03’15”: How does text clustering allow for variety of objects while still performing within the “natural structure” and what allows it to become so general?
+?L10.3: 4'38"-7'30": What are the benefits of probabilistic models vs other models
+?L10.1: 7'29"-7'50": When clustering things with larger granularity (e.g. an entire website) is some of the power of text clustering lost?
+
+?L10.6: 00'00"-01'00": Beyond general knowledge and given the high interest in deep learning, is it advisable to revisit generative models for future solution formulations? The need of data that deep learning methods is one answer but it there any other reason?
+?L10.1: 3'15"-4'20": So to clarify, we cannot simply assess similarity because it is important to define perspective as any two objects can be similar? 
+?L4.8:10'02"-10'10": How we get the P(Y) here? 
+?L4.1: 2'23"-5'15": Why are we adding the background probability if it is already a common word?
+?L10.5: 6'48''-7'16'': Why can we assume these are correct?
+?L4.5: 1'20''-1'30'': For similarity-based partitioning of data, can it cluster the text into more than one clusters (one text in multiple clusters)?
+

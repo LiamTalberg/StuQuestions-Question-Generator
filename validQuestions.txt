@@ -1,0 +1,81 @@
+When should we use precision over recall and vice versa?
+Should precision affect the majority of documents affected?
+how should we decide the value of beta?
+When would we use binary judgements?
+What kind of data structure should we use to store postings then?
+How can we adapt the vector space retrieval model to discover paradigmatic relations?
+Would not moving the query vector closer to the rest create an overfitting model?
+Why would we use each word in the vocabulary to define a dimension of the vector space?
+Why the formula use multiplication rather than addition?
+Would we be able to use a negative edge weight in the instantiation of NetPLSA?
+What functions can we use in the Vector Space Model for scoring apart from the dot product?
+what would be the effect if we set the parameter larger or less than 1?
+Can professor further compare those two concept in the class?
+How do we pick the best values to use for lambda and mu when doing the smoothing?
+How to combine push & pull in practice?
+How do we use generated models to do text categorization?
+What techniques can we use to determine how to partition data to determine context?
+what stuffs can nDCG do but DCG cannot?
+Why cannot we use Cranfield Evaluation methodology to train machine learning models on labeled data?
+How can we use the entropy function to determine common words that do not provide much content or context to our document?
+Should you first determine the class a text belongs to and then cluster?
+What will affect the convergence rate of THEM?
+How can Psedo Feedback be useful if the top 10 documents are assumed instead of actually judged by the user?
+How to guess the probabilities to ensure the it will converge at the global maximum but not a local maximum?
+Would it be better to weight unbiased reviews more rather than accomodating ratings for biased reviews?
+Will the access times really be that impactful to the overall indexing?
+Will not unary code always be more bits than binary?
+Why even care about query words not matched in d?
+Will it be a query that contains more common words amoung the relevant documents?
+Will making data and text more concise take away from the actual content?
+What doest the position mean here?
+What is the point of +1 here?
+How we get the P(Y) here?
+Why we need a parameter here?
+why lambda=0.7 can produce more noise than lambda=0.9 according to the generative mixture model?
+Why not have a standard smoothing language model?
+Why is PLSA not a generative model?
+Which one is better, JM smoothing or Dirichlet Prior smoothing?
+Why can hill climbing only find local minimum?
+Why we take log function in PLSA formula?
+Why is this a special case?
+What is theta and pi exactly?
+What about recommending based also on images?
+What is the difference between semantic analysis and pragmatic analysis since they are both about meaning of the sentence?
+How accurate are correlated occurrences in the context of syntagmatic relations, since intuition is involved?
+What is the difference between querying and pull mode for accessing information, if both require the user to input specific keywords to search for?
+Why are 3 and 5 encoded as they are?
+How could we determine the tradeoff between exploitation and exploration if it is hard to reach a balance?
+Why is non changing recall count as zero when calculating the average position instead of using updated precision?
+How to address the problem of treating every word equally when calculating similarity?
+What is the value of the denominator when calculating recall in test collection evaluation?
+May you explain why each word gets count of 1?
+Will these Zs allow us to pull some binary classification technique on these thetas?
+Why can we assume these are correct?
+Can we rank the documents according to the maximum product of the results of the various ranking functions?
+How is it possible to create a lower bound on the probability of a word occurring using conditional entropy?
+Can we improve by using something other than completely random values for initialization?
+why can we build algorithm based on Probability Ranking Principle, even if it is not hold in lots of the situations?
+Can we have examples on how to rank using the smoothed ranking functions?
+How to effectively break the tie?
+Could we get more examples of Statistical Significance Testing?
+What could be a downside with using EOWC?
+what is the probability exactly?
+Why would not we just use multi level judgements as it allows for more flexibility?
+Why the standard method for evaluating a ranked list is quite sensitive to a small change of precision of random document?
+Why is it impossible to specify probability values for all the different sequences of words?
+Should not the ranking system return a ranked list of all documents?
+How is it different from the normal method?
+what factors would help us determine the background probability of each set?
+How to convert the existance of links between pages into the adjacency matrix?
+How do the user click the document if he did not enter a query?
+How do we normalize the case where a document is long but its relevant content within that document is very short?
+Why do not we take the length of document into consideration?
+Would not the overhead for calculating inverse document frequency for each word be very high?
+Why the counter would treat the two "World" seperately?
+Can you go into more depth of the differences between MAP and gMAP?
+Could you please give an example of gMAP?
+How would this formula affect popular terms that should not be penalized?
+Should this be Pointwise Mutual Information?
+Would this perhaps result in increased relevance and accuracy?
+Would not this give a greater importance to the words in the background LM?

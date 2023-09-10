@@ -1,0 +1,106 @@
+?L1.1: 6'32" - 8'00": Are things like metaphors something NLP has to worry about as well? 
+?L1.3: 10'35"-14'38": How is R'(q) is related to the relevant documents R(q) and what information does it provide?
+
+?L1.3: 7'36"-10'36": Are both queries and documents elements in the vocabulary set, also what do the parameters i,m represent in documents?
+?1.5 Vector Space Model: 6:21-6:44: Why is the ranking function defined as the similarity between the query vector and document vector?
+?L1.3: 19' 25"-19' 34": How do we determine if the classifier is over or under constrained?
+
+?L1.5: 7'11"-8'10": How exactly would synonyms appear on a VSM vector model and why can't they be in different dimensions while still having the correct meaning/connotation?
+
+?L1.6: 14'00"-15'38" : How to solve the problem when there are multiple documents having same similarity score?
+
+?L1.2: 5'15"-5'3": I am still confused about the diferences between querying and browsing, can you provide some concrete examples?
+?L1.5: 1'30" to 2'00": How do you know which model for "relevance" to use? Do different models perform better given different "types" of documents?
+
+?L1.1: 2'25"-4'32": What's the difference between semantic & pragmatic analysis?
+?L1.5: 5'20"-3'50": #C# How many dimensions does one term in a VSM define? (A) 3 (B) 2 (C) 1 (D) 4
+
+?1.6: 6'22"-7'26": The forumla to calculate the simplest VSM is written as bit-vector+ dot product+ Bag of words; I thought we only need to calculate the dot product of the query and document
+
+?L1.1: 6'25"-8'00": Which challenge is harder to settled? word-level ambiguity or syntactic ambiguity.
+?L1.3: 13'20"-13'35": How do we know whether the theta we pick is optimal? That is, how do we know if a value makes a good theta?
+?L1.5: 8'32"-9'17": How can term weights in the space be seen differently than a query? 
+?L1.3: 8'40"-9'20": What exactly is represented by the multiple subscripts for each document?
+?L1.1: 13'55"-14'37": What's the difference between POS tagging and parsing?
+?L1.3: 16'42"-19'35": Is there any case in which document selection is preferred over document ranking, or is ranking always more effective than selection?
+?L1.5: 4'58"-5'18": How are the terms chosen? All terms in the vocabulary? Then any term not in the query results in a 0 in the final sim score. Or all terms in the query?
+?L1.6 15'12"-16'50": How do we value the importance of each word while the vector only checks for exsistance with bit vectors?
+?L1.3: 8'22"-9'23": What's the difference between query and document besides their lengths?
+
+?L1.4: 3'16"-3'35": What does it mean to say that "the query follows from the document"?
+
+?L1.2 1'00"-3'00": Is it too restricted to formulate recommender system as a text access problem? What about recommending based also on images? (e.g. product presentation)
+
+?#A# Which of the following best describes a Bag of Words? (A) An N-Dimensional Vector space (B) Scrabble Bag (C) Collection of terms relevant to bags
+?L1.4: 8'10"-8'30": Will we be learning all of those methods listed or just BM25? It was brought up so abruptly during the lecture that I didn't know if I was supposed to write those down to study later on or memorize.
+?L1.4: 2'27" - 2'36" What are these random variables that queries and documents are all observed from? Are they defined or arbitrary?
+
+?L1.2: 1'30"- 5'00":What is the difference between querying and pull mode for accessing information, if both require the user to input specific keywords to search for?
+
+?L1.6:3'18''-8'04'':What are components of simplest vector support model?
+
+?L1.5: 3'17"-3'48": Why would we use each word in the vocabulary to define a dimension of the vector space? Wouldn't this result in many unnecessary dimensions?
+
+?L1.4: 3'44'' - 4'03": In Axiomatic model the f(q,d) must satisfy a set of constrains. Does it mean that it have several ranking functions or it has one function with a more complex definition?
+?L1.4: 2'30"-3'10": Probabilistic inference model was something I was a bit confused on the different types of probabalistic models and how they work? 
+
+?L1.2: 1'25"-3'17": What's the meaning of parameter lambda?
+
+?L1.1: 0'44"-0'45": When did NLP become famous?
+?L1.1: 6'49"-7'54": For the sentence regarding a man seeing a boy with a telescope, it is mentioned that we have a lot of background knowledge and hence it easy for us to get rid of the ambiguity. However, if we had absolutely no context of the scenario the statement is being made in, shouldn't it be just as hard for us and a computer to understand which individual has a telescope? In other words, why does the disparity of understanding between us and the computer even exist in this case?
+?L1.6: 4'10"-4'51": How does the assignment of zero for every absent word in a document help in vector placement? 
+?L1.1: 8'30''-09'00'':What "the query follows from the document" means?
+?L1.4: 7'30"-8'30": Why is BM25 the most popular?
+
+?L1.6: 3'24"-3'46": How is the BOW created, and would it be preferable to reduce it to the most important words? If it is not preferrable, how is space optimized for N dimensions?
+
+?L1.1: 2’06” - 3’38”: Didn’t exactly understand in detail about POS tagging and parsing. Would be great if the professor can talk more about it.
+
+?L1.4: 5'50"-6'55: How will DF and TF determine relevancy more specifically? Is it the larger the value they are, the more relevant the word?
+
+?L1.1: 15’47”-17’12”: I am not sure how NLP and TR related to each other exactly, is TR a part of NLP or are they completely separate from each other?
+
+?how to define syntactic structures?
+
+?L1.4: 7’39”-8’22”: How is the performance of each of these models benchmarked?
+
+?L1.6: 8’41”-8’41”: Do the Vectors contain entries only for certain “key” words that the designer chooses or does it contain entries for every word?
+?L1.2: 2'20"-2'35": How do I provide the machine with context knaowedge to comp\
+
+?L1.5: 44"-1'52": Why is similarity used to rank when queries may not exactly contain words in related documents?
+
+? L1.1 6’28’’- 13’58’’:Professor use the sentence “ A man saw a boy with a telescope” twice as example to explain two different concepts. First, professor says this might raise syntactic ambiguity. Later he talks about complete parsing. Is there an overlap between these two concept? Can professor further compare those two concept in the class?
+?L1.5:1'25"-1'37": If N-dimensions corresponds to the words in our vocabulary, is the vector space model feasible/functional when it scales to the full size of our complete vocabulary?
+
+?L1.5:14'43"-16'30": The simplest VSM ranks d2 as high as d3 and 4, which is problematic. Would a possible solution be to assign a term weight to "presidential" that is heavier than "news" and "campaign"?b Or to exclude common prepositions like "about" when we calculate the number of unique terms that match?
+?L1.3: 21'54"-22'17": Does Google adjust such independency in its search results?
+?L1.4: 6'47"-7'23": Should we also be increasing the frequency of a word of a different form? For example, in the lecture we are counting the frequency of the word presidential, so should we also take into consideration when we see the word president as well?
+?L1.1: 15’54”-17’07”: What is an example of deeper NLP for complex search tasks and what does deeper NLP refer to?
+?L1.1: 7'00"-8'00": Are there ways to avoid accessing and retreiving text that has potential syntactic ambiguity?
+?L1.1: 1:20-4:20: What's the difference between semantic analysis and pragmatic analysis since they're both about meaning of the sentence?
+
+?L1.4: 1'30"-7'10": What is the relationship between State of Art retrieval method and other retrieval mothods first introduced?
+
+?L1.6: 7'30"-8'10": Why don't we use a count for number of matches, instead of a binary 0 or 1?
+
+?L1.4: 7'35"-8'25": What is the particular feature that makes BM25 the most popular?
+
+?L1.4: 3’58”-4’19”: I don’t quite understand the math/logic behind the equation for the Probabilistic Model. Can that definition be further explained?
+?L1.2: 8'25''-8'30'': How to combine push & pull in practice
+
+?L1.6: 6'19''-8'02'': Why don't we take the length of document into consideration
+?L1.1: 2'42"-4'21": What's the different between semantic analysis and pragmatic analysis? It seems they are all extracting meaning from text.
+
+?L1.3: 23'51"-24'20": why can we build algorithm based on Probability Ranking Principle, even if it is not hold in lots of the situations?
+
+?L1.4: 2'20"-3'40": What is the different of Probabilistic models and Probabilistic inference model? If I define R=1 when d->q, there are exactly the same right? 
+
+?L1.6: 6'10"-8'15":What are other metrics to measure similarities, or other combinations of VSM, since the combination bit-vector + dot product + BOW here is considered a simplest example?
+
+?L1.4: 2'20"-3'13": For the probability model, why are we using random number to determine relevancy?
+
+?L1.5: 7'15"-9'30": How many dimensions do we need to produce good results?
+?L1.6: 7'40''-7'45'': Is the comparison of similarity (obtained from the formula) across different documents linear?
+?L1.5: 5'33"-5'45": What is N in N terms here refers to? Does it refer to the total number of terms that appears in the query and all exisiting documents?
+?L1.6: 14'25"-14'40": How to effectively break the tie?
+

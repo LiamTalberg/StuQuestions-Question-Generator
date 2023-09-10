@@ -1,0 +1,145 @@
+?Lesson 2.6: 14'13"-16'33": How does Zipf's law filter out the completely unrelated results?
+
+?L2.4: 19'15"-20'30": What is the "postings" data structure?
+
+?L2.5: 3'16" - 12'52": What is the point of compression? Will the access times really be that impactful to the overall indexing?
+
+?L2.4: 7'05"-9'07"  What if we Tokenize the terms before we make them the index, is that something that people do or would that skew how the index work and potentially give wrong data to the user?
+?L2.6: 1'00"-4'26": What does f subscript a mean and how is it calculated from the result of the function h?
+
+?L2.5: 3'34"-4'45": Are the doc-ids sorted with the term-ids in the "local" sort?
+?L2.1: 11' 00"-12' 50": How do we determine what type of function to use for the IDF?
+
+?L2.3: 13'05"-15'40": How exactly does adding a constant to the TF the way that BM25+ limit overpenalyzing?
+?L2.5: 11'45"-16'00": Can we get more examples of using gamma-code?
+
+?L2.5: 12'15''-14'00'': How does the gamma-code intergar compression method work? I did not understand the example from the video.
+
+?L2.2: 5'10"-8'10":Is the BM25 transformation the best in all cases, or should the transformation used depend on the documents being searched the the types of queries used?
+?L2.5: 11'20"-16'38":I'm still very confused how integer compression actually reduces size of storage since some of the examples make it seem like you're using more bits than before on some inputs
+?L2.6: 3'53"-4'38": Can you further explain why we need to compute g(t,d,q) in scoring algorithum? Like what is that function g() and what are the primeters t,d,q stands for.
+?L2.5: 12'43"-12'50": How do you do gamma coding?
+?L2.2: 0\'926\'94-1\'9203\'94: Is there any way to look at something like \'93organic food campaign\'94 as its own phrase in order to differentiate one campaign from another rather than only targeting words?}
+?L2.5: 11'35''-13'13'': How do you determine how many unary bits there are in the encoding?
+?L2.2: 1'35"-2'15": In the ranking with TF-IDF, why is the ratio # of docs to doc frequency?
+
+?L2.4: 14'56"-18'05": What is Zipf’s Law used for? 
+?L2.2: 6'03"-6'39":
+
+?L2.5: 9'30"-16'30": How much worse is unary/delta-encoding versus gamma-encoding for inverted index compression?
+
+?L2.6: 6'10"-6'30": What does the term "accumulators" actually refer to; if it's just the scores for the matching of query term to document, is it the same as the term frequency value?
+?L2.2: 6'49"-9'07": State of Art VSM Ranking Functions:Pivoted length normalization VSM and BM25
+?L2.5: 15'57"-16'10": Why are 3 and 5 encoded as they are?
+
+?L2.5: 11'07"-11'17": What does aggressive mean?
+
+?L2.6: 04'05"-04'40": What is the purpose of passing in q to the function g? If I understand this correctly, t_i is the query term and d_j is the document -- so what is the purpose of q?
+?L2.3: 3'15"-4'01": Why we penalize less for long documents with more contents?
+?L2.1: 10'00"-10'40": Why the IDF Weighting function is log[(M+1)/k] instead of log[M/k]? What's the point of +1 here?
+?L2.1: 9'57"-10'15": Why is it (M+1) rather than M in the formula of calculating IDF? How does the formula come like this?
+
+?L2.2: 5'56"-8'05": How do we estimate or choose the appropriate value for k in BM25 formula?
+?L2.2: 7'00"-8'00": How do we go about determining an actual value for k?
+
+?L2.5: 11'25"-16'00": I am confused on how exactly gamma coding works?
+?L2.1: 8'52"-10'00": Wouldn't the overhead for calculating inverse document frequency for each word be very high? Is that a problem in terms of vsm efficiency?
+?L2.3: 2'49"-3'48": How do we normalize the case where a document is long but its relevant content within that document is very short?
+?L2.4 4'45"-5'30": What kind of data structure should the method use? How does it speed up the search?
+?L2.1: 1'50"-1'55": Is there any other problem of simplest VSM?
+
+?L2.5 7'30"-7'40": What exactly does "d-gap" mean and why is it useful?
+?L2.4 18'00"-21'00": What is dictionary and posting talking about? 
+
+?L2.4: 19'43"-21'10": What kind of data structure should we use to store postings then? Or do we just not need to use any sort of data structure, and store it in some other format?
+
+?L2.3:10'51''-11'00'':What's the meaning of "bag-of-word with phrases"?
+?I still dont understand how to compute Gamma code, and why it is better than binary.
+?L2.4: 5'55"-11'05" & 18'04"-21'13": Are both dictionaries and postings used to construct an inverted index, or do you use one over another based on the size of a dataset?
+?L2.6: 15’20”-16’13”: How does Zipf’s law help avoid touching documents that aren’t in the query?
+
+?L2.5: 10'01" - 14'00":Differences between the types of integer compression?
+
+?L2.6: 14'21"-16'30": Can we get some more examples on how to construct an Inverted Index and how we go about utilizing it?
+?L2.3: 4'25"-6'25": What are the variables in the Pivotal Length Normalizers referring to?
+?L2.6: 3'29"-5'10": What exactly is meant by these "score aggregators"? Are these the g functions? Are we saying that we add the frequency for the current term to the count corresponding to the document, and that's our aggregation?
+
+?L2.5: 3'40"-4'33": How is this block in "Local" sort being created / partitioned? How do tuples with different doc IDs get grouped together? I am very confused with this whole process.
+?L2.2: 1'30"-3'30": I'm confused on the ranking function, how does this function not reward multiple same word occurences? I wasn't very clear on that detail.
+
+?L2.3: 17’00’’-18’00’’: What does the prof mean when he says BM should not be a vsm but a probabilistic model?
+?L2.2: 1'15"-1'16": How did they come up with such weighting formula
+?L2.1: 10'33"-10'49": Why it's (M+1) instead of M, does it mean the value should be greater than 1. If M=0, then k = 0, which still cause an undifined error for the division.
+
+?L2.4: 9'16"-9'57": How the a word in the dictionary is mapped to the position in Posting?
+
+?L2.5: 15'55"-16'54": Does is the delta-code use gamma-code twice recursively?
+?L2.4: 3'21"-4'11": How does stemming help in increasing the coverage of documents? What does coverage of documents mean and what could be some other benefits of stemming?
+?L2.2: 6’34”-7’15” : Why is a log function for weight of query words in a ranking function of TF-IDF transformation better than other functions?
+
+?L2.5: 8'30''-09'00'': Why is doc ID compression using d-gap more efficient than using the original IDs?
+?L2.3: 5'00"-6'27": When and how do we compute the average document length?
+
+?L2.4: 11'00"-11':16": Is Inverted Indexing a data structure or an algorithm for indexing the words in a document?
+
+?L2.5: 11'42"-16'00: Very vague explanation. Please explain it in more detail with more examples. What is the log based? 2, ln or 10?
+
+?L2.3: 11'06''-12'06'': What are some methods employed for language-specific and domain-specific tokenization
+
+?L2.1: 13'37"-14'12": What functions can we use in the Vector Space Model for scoring apart from the dot product? Are there more sophisticated functions that improve accuracy?
+
+?L2.4: 20'13"-21'08": Apart from using specialized data structures for storing documents, do we in practice also use specialized hardware that makes retrieval and searching faster?
+?L2.5: 11'30"-17'00": Although I get why 3 is 101 in Omega code, I am not quite sure why 5 is 11001 (The 110 part), and how the 0 in the middle works. I hope the professor could explain more during the lecture.
+
+?L2.6: 2'42"-2'54": Are both fa, fd, and fq all used to make final adjustments, and are these functions used at different points in the final adjustment?
+
+?L2.5: 9'00" - 13'00": Can you go over the differences between the different Integer Compression Methods?
+?L2.5: 12'00"-12'45": What is the reasoning for making the first (1+logx) unary and the x-2^(logx) uniform? The method for encoding seem random to me. 
+
+?L2.5: 11'00"-11:45": How does unary code compress binary code? Won't unary code always be more bits than binary?  
+?L.4: 4:59 - 5:06 Why is inverted index the most common type of indexing used? 
+?L2.1: 11'18"-12'42": How could the IDF Weighting technique be improved to include synonyms of common words without significantly increasing time-complexity?
+
+? 11’07’’ - 16’16” : Professor talks about gamma-code. Is there way to directly compute log of x rather than recognizing unary code and getting the value of log of x by plugging the unary code formula ? 
+
+?L2.1: 11'-12'30'': How would this formula affect popular terms that should not be penalized?
+?L2.5:11'40"-15'0": Is the main purpose of unary and gamma coding to maintain the sequential ordering of documents?
+?L2.3: 13'06"-15'51": Which algorithm is more often used in industry, BM25F or BM25+?
+?L2.4: 14’36”-17’45”: How does the formula provided by Zipf’s law help avoid touching a large number of documents that do not match a query term?
+?L2.4: 4'15"-4'38": Is it possible to apply the same tokenization techniques to all languages and make a universal tokenization technique, or would each technique have to be customized for each language due to the differences in word segmentation?
+?L2.2: 1'25"-4'08": Are there situations where we don't want to use TF transformation and instead leave it as is?
+
+?L2.3: 3'15"-4'10": Are there other ways to define a pivot than the average length of the document?
+?L1.1: 16:03-16:08: What is uniform code?? 
+
+?L2.5: 11'35"-12'20": How does gamma decoding work?
+
+?L2.3: 9'35"-9'45": We have assumed a bag of words representation. It's been said that it works fine, even though the order that connects words is lost, could you provide a more intuitive explanation on how and why is that word counting (that obviates semantics) works so well?
+?L2.2: 5'55"-8'06": What's the best way to choose the parameter k, and does it depend on the type of search or is there one preferred value?
+
+?L2.4: 15'50"-16'50": In looking at Zipf's Law, I came across the issue of synonyms and antonyms. If there are words that mean the same thing, but are used more in certain contexts than others (a mathematician's book vs. a fiction novel), how does the equation hold true? By that, I mean there are words that are considered to be rare in a certain context, but in the complete space of all words used, they maybe very frequent.
+
+?L2.3: 2'11"-6'39": To clarify, long documents are penalized because there is a higher probability of matching or finding the query?
+?L2.1: 12'33"-12'50": What's the meaning of the linear relationship compared to standard IDF?
+
+?L2.3:5'40"-6'10": Why b in the normalizer has to be smaller than one?
+
+?L2.4:10'50"-11'00": What doest the position mean here? Is that an index of where the Doc start?
+
+?L1.6 1'38 - 4'32 how is this function actually work?
+
+?L1.5 16'30 - 16'50 how does epsilon-code work?
+
+?L1.4 5'37 - 6'10 why is it called inverted index?
+
+?L2.5: 16'56"-17'41": Isn't it costly to decompress the document id every time since we need to iterate through the doc id?
+
+?L2.4: 5'40"-6'10": Would it be better to look at other words often searched with that word to combine with the query to get better results?
+?L2.5: 2'35'' - 4'31'': For the first two steps of inverted index construction, is all documents sorted by doc ID first and then documents are splitted into groups(such as 6 docs per group), with each group sorted by term ID? 
+?L2.4: 9'05''-10'10'': How is the position of a term in the dictionary confirmed in the postings?
+?L2.5: 2'00''-5'00'': for the notation "Term Lexicon" and "DocID Lexicon" at the right, is it corresponding to the "dictionary" and "posting"? Also, what is the third index of those vectors?
+?L2.5: 8'10"-9'00": Any examples of d-gap, and what's the heuristics behind this method?
+
+?L2.5: 12'15''-14'00'': How does the gamma-code intergar compression method work? I did not understand the example from the video.
+
+?L2.4:18'24"-21'14": What is the meaning of postings? Is it just another word for inverted index?

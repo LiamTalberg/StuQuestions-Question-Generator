@@ -1,0 +1,84 @@
+?Lesson 6.8: 8'42"-10'04": What is an example where one would use the Pearson correlation coefficient over the Cosine Measure or vice-versa?
+
+?L6.1: 0'00"-2'00": How do we pick which features to use in the tuples, or how do we say one feature is more useful than another?
+
+?L6.2: 00'00" - 1'33": What are the advantages of regression based learning?
+
+?L6.6: 0'58"-1'13": Why can't we use Cranfield Evaluation methodology to train machine learning models on labeled data?
+?L6.8: 0'30"-2'37": When talking about predictions in memory based approaches, what is w(a,i) and how does it help to see differences and similarities between users?
+
+?L6.8: 0'50"-1'54": Are there other ways to calculate similarity in the memory-based approach formula?
+?L6.8: 1’38”-1’46”: Why do we need to normalize?
+?L6.2: 7' 10"-7' 30": How do we determine the values for beta to use in the function and how do they modify the output?
+
+?L6.1: 4:05-5:35: How exactly is lambda determined and how does its value affect the function?
+?L6.3 0'30"-4'00": Does using ML to rank run into the issue of blackboxing the solution, so you can not really evauluate why the ML algorithim decided on a result?
+?L6.8: 7'03"-7'20": What is x=v+n?
+?L6.9: 1'20''-2'20'': What do you do if you still want to recommend stuff to a user, but you do not know anything about the user?
+
+?L6.5: 8'40"-9'05": Could we use a a ternary classifier instead of binary in content-based filtering?
+?L6.5: 3'45"-8'41": What do companies with more complex filtering systems (such as google) implement?
+?L6.5 2'00"-2'30": How does a system store information about a specific user's interests if the user never indicated their initial interests in a survey-type setting, like in social media (Reddit, Instagram, etc.)?
+
+?L6.2: 3'40"-3'55":What do the beta values represent?
+? L 6.5 9'05" - 9'20": What is the data used to make the initialization module? Is this the users first few query searches and feedbacks? 
+
+?L6.2: 00'00" - 1'33": Please go through the formula in more detail? I don't quite understand
+
+?L6.2: 4'06"-5'15": What is the meaning of the BM25Anchor? How is it related to BM25?
+?L6.8: 07'35"-09'55": Is it correct to say that the only difference between Pearson correlation coefficient and cosine measure is the normalization of the ratings?
+?L6.3: 0'19"-0'31":I do not understand why optimizing 0s and 1s do not necessarily optimize rankings?
+?L6.2: 8'05"-8'20": Why does 1 minus the probability of relevance yield the probability of non relevance?
+?L6.6 4'30-7'40":Is it possible that the optimal happens after zero position? How would it affect the choise of beta, gamma and the position of cutoff position?
+?L6.7: 3'11''-3'24'':What exactly does "cold start" mean?
+?L6.6: 1’13”-2’58”: How could we determine the tradeoff between exploitation and exploration if it’s hard to reach a balance?
+
+?L6.7: 3'56''-4'12'':How exactly does the filtering predict f values for other (u,o)'s?
+?How do you effectively set up a filtering system with no bias.
+?L6.6 4'32"-5'00": How is the value of utility obtained?
+
+?L6.8: 5’00”-5’22”: What does it mean by normalization strategy that gets the predictor rating in the same range as these ratings? 
+
+?L6.9: 1'23"-2'33": How would the IUF impact the traditional function? 
+?L6.5: 10'17"-11'22": In this case, would collaborative filtering (similarity) fall under reusability of a scorer?
+
+?L6.1: 2'06"-5'54": When defining a feature, do we need to constraint the frequency? For example if our feature is the number of overlapping terms, but we only want to consider for a specific n terms. 
+?6’59”-8’30”: how should we decide the value of beta? Should the beta we choose has a greater influence on alpha than gamma and N do? Or in other words, overall, should beta control alpha or N and gamma control alpha?
+
+?L6.2: 3'30"-4'30": When estimating the beta values, how do we know that this estimation properly works exactly?
+?L6.2: 6'07"-6'10": How did they come up with the method to estimate beta
+?L6.8: 7'42"-9'54": Why the formula use multiplication rather than addition?
+
+?L6.4: 6'10"-8'15": What is the difference between Meta and Vertical Search Engine in the concept umbrella of recommender systems? 
+
+?L6.2: 7'00"-10'24": How are the beta parameters decided in the logistic function? Do correlated betas decrease the accuracy of the model or the importance of the ranking?
+
+?L6.8: 5'10"-8'47" Examples of how to carry out those tests and what does the result mean?
+?L6.6: 3'58''-4'20'': What is the biased training sample problem?
+
+?L6.1: 2'48"-3'11": Can we rank the documents according to the maximum product of the results of the various ranking functions?
+
+?L6.8: 7'30"-10'00": So which user similarity measure is the most commonly used one? Which one has the best average performance?
+?L6.7: 0'00" - 5'00": Can you explain more about how the differences between types of collaborative filtering algorthms work?
+?L5.4: 2'20"-2'35": Why do we need to use map reduce?
+?6.4:4'15"-4'16": How would vertical search engines detect this specialized group of users?
+?L6.1: 4'34"-4'44": How is actual user feedback incorporated to the evaluation of training data?
+
+?L6.6: 8'30"-9'30": How is Beta-gamma threshold learning effective compared to other methods?
+?L6.5: 2'01"-2'43": How do we implement the recommendation so that it "delivers the decison" immediately?
+?L6.1: 01'17"-01'50": How does one prevent the overlap of features themselves? Is it acceptable for features with overlapping terms to overlap as well?
+?L6.1: 4'18"-4'30": When using machine learning to rank, how do we know when to stop "learning" ? 
+
+?L6.9: 03'35"-04'45": Going deeper into more advanced methods and implementation including machine learning there is something concerning. The quality of the data, data is collected however is there any standard metrics or method to evaluate the quality of the data before applying less intuitive (deep learning) methods? How to evaluate if the problem is in the data and not in the chosen algorithm?  
+?L6.5:3'59"-6'20": can you give an example of how content-based filtering system works (for the graph)?
+?L6.2 9'12 - 9'30 How does the formula exactly work in example?
+
+?L6.8: 7'40"-8'58": What is the difference between pearson correlation and cosine if they are applied in measuring similarity? The two formulas look quite similar.
+
+?L6.8: 3'36"-6'20": Still very confused about this function, why is k defined in this way?
+
+?L6.8: 1'26''-1'55'': How does subtracting the average rating from all the ratings ensure that all ratings are fairly evaluated?
+?L6.6: 0'00'' - 0'05'': For threshold learning, where does the initial pool of documents come from? Is it simply all the docments available or is there any candidates generation process for candidate documents?
+
+?L6.6: 7'00"-7'30": What is the functionality of alpha and beta respectively?
+

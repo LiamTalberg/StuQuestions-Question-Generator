@@ -1,0 +1,900 @@
+What is the best way to choose the appropriate k for running k-means clustering?
+When using the maximum likelihood estimator for parameter estimation what does arg max mean and what is the meaning of the result that it gives you?
+How do we determine how much we should smooth?
+Why does smoothing achieve discriminative weighting?
+what does theta represent?
+True or False: in Top-Down Clustering, we gradually partition the data into smaller clusters. (A) True (B) False?
+What is hierarchical categorization and how is it useful?
+In what scenarios do the three popular group similarity algorithms result in the best accuracy?
+Can a cluster for words be compared to clusters containing larger objects, like groups of documents?
+How do we use generated models to do text categorization?
+What is the most efficient way to find lambda star?
+Iterating through all combinations of parameters seems tedious.?
+What is the advantages and disadvanatges for probability and similarity approch repesctively?
+Is it possible to have the amount of topics shared among the docs more than the amount of docs?
+What exactly is Hierarchical Agglomerative Clustering?
+How do we choose the way to compute a group similarity based on different variations?
+What exactly is Hierarchical Agglomerative Clustering?
+Should you first determine the class a text belongs to and then cluster?
+What exactly are differences between K means and THEM algo?
+What is the motivation for test clustering?
+What is the functionality for all of text categorization in real life?
+Can you use a different model than k unigram LMs?
+So we are throwing all the data onto a neural network to figure out more categorizations?
+What are examples of criteria of choosing single links over complete links and vice versa?
+What is the difference between generative probabilistic model for cluster and categorization?
+Is the general idea of clustering, then, to simply put together similar text objects so we can generalize/aggregate multiple things into one and treat them as one item to simplify a collection?
+I do not fully understand the benefits of this in things like search results; would not you still want to treat these results as separate entities for the user?
+For text categorization being used, it looks even with unsupervised techniques we hit a road block in terms of actual understanding of the topics, what is going to be the future of text categorization where the model understands or has some schema to see how the topics relate the way humans do?
+Are there equations with more inputs?
+What is the intuition in scoring based on ratio rather than compare two scores?
+Why the log of ratio is the weight?
+How does clustering deal with outliers in a cluster of data?
+For eg: in young culture, if tide pods are a data point to online social media content in that age group, which in reality belongs to that cluster but will be seen as an outlier, because this has no similarity to other kinds of social media content?
+How does exponiating the probability by c(w,d) change from x_j to w?
+What Is Good Clustering?
+What Is Cluster Analysis?
+did not understand how performing smoothing of word distribution using the background model helps in the discriminative or IDF weighting of words as well.?
+In k-means clustering, do we get better results by choosing k to be the number of clusters we want or can we do better by choosing k > n where n is the number of clusters and then manually assigning categories based on what we have learned about the clusters i.e. considering clusters as features of documents?
+Can you explain more about how these models help in text categorization?
+How can we adapt the vector space retrieval model to discover paradigmatic relations?
+In the example provide there are two given ways to differentiate clusters; however, in real situations how can clusters be identified in data that is more continuous than discrete?
+What other type of text clustering models support a document that can cover multiple topics?
+What is the advantage of adding prior (Bayesian)?
+How does text clustering allow for variety of objects while still performing within the �natural structure� and what allows it to become so general?
+What are the benefits of probabilistic models vs other models?
+When clustering things with larger granularity (e.g. an entire website) is some of the power of text clustering lost?
+Beyond general knowledge and given the high interest in deep learning, is it advisable to revisit generative models for future solution formulations?
+The need of data that deep learning methods is one answer but it there any other reason?
+So to clarify, we cannot simply assess similarity because it is important to define perspective as any two objects can be similar?
+How we get the P(Y) here?
+Why are we adding the background probability if it is already a common word?
+Why can we assume these are correct?
+For similarity-based partitioning of data, can it cluster the text into more than one clusters (one text in multiple clusters)?
+What is an example of how we can combine multiple methods for these kinds of problems?
+What happens if we have more than two categories?
+What is the optimal way to combine and use character n-grams, word n-grams, and POS tag n-grams?
+When should we use precision over recall and vice versa?
+True or False: In SVM classifiers, we assume beta1 > 0 and beta 2 < 0 (A) True (B) False?
+How come we do not use classifiers that split the rating search space in half, requiring only log(k) classifiers instead?
+Why do we use M+1 and k-1 in the formula for the total number parameters for independent classifiers?
+In which situations will a KNN classifier be accurate and perform better than a logistic regression classifier?
+What if an opinion's context, like date or time, was considered in the natural language processing, but the opinion maker did not actually make use of that context?
+Why does the order of the polarity categories matter?
+What is the meaning of parameter lambda?
+What is meant by "share training data"?
+Does this refer to the fact that beta_ji is the same for all values of j?
+What is the difference between macro and mirco avergeing of precision and the recall?
+Does human effort needed for all items in micro-averaging?
+What else semi-supervised learning technique we can use here?
+How do we deal with the ambiguity when conducting sentiment classfication?
+Will different type of supervised learning techniques change the final result?
+If most of this class is based around ML, cannot we use elements of AI to boost our applicability of algorithms?
+how is large margin connected to (W^t)W?
+Can sentiment classifications be treated as a categorization problem?
+What is the functionality for all of text categorization in real life?
+Is it possible to overfit K?
+How to find the sweet spot?
+Is C the covariance matrix?
+Or just a regularization parameter, and is it tuned by trial and error?
+What are examples of text data that do not adhere to the discriminative classifier?
+What is an example of �perform error analysis to obtain insights� to �design effective features�?
+In the sentence "In response to the damage of Hurricane Katrina, the governor issued a speech.", the "the governor" is the target, and  "Hurricane Katrina" is the holder. (A) True, (B) False?
+For opinion mining, how does the machine understand that opinion itself when its pattern recognition model is based without understanding context without a schema because I am assuming it just uses ML to understand the context which is curve fitting?
+Why do we assume B2 to be positive and B1 to be negative?
+Why was there notation changes?
+did not quite understand how the probability of Y given X was re-written to get the functional form?
+How can sarcasm and cross/cultural context be detected using Unigrams?
+Are there non-linear SVM that move along different points?
+What is Text Categorization?
+What is a good Text Categorization?
+How it is used?
+Why do we not consider cost of decisions while comparing different classification methods, because there can be subtle differences between the 2 methods where introducing cost of mistakes in the evaluation metric might help in actually understanding which method performs better?
+Is it possible to consider opinion and sentiment mining a subset of text classification?
+We could do it by providing the training set as classified examples of the various sentiments and opinions we see and then use the resulting model to extract information sentiments and opinions based on how our document is classified.?
+how exactly do we derive the general formula of i,wtx+b >= 1 based on the two formulas (>1 and <-1) on the left. What does i mean, and what does w mean (is it the surface?
+)?
+How can we adapt the vector space retrieval model to discover paradigmatic relations?
+Use the same logic, can we apply unsupervised learning techniques on text clustering?
+How does one choose which Discriminative Classifier to use?
+Is it a matter of the type of data, the features, or something else?
+Is there any way to evaluate classification accuracy without the need for human involvement?
+How do you optimize the tradeoff between exhaustivity and specificity?
+Does the likelihood function always converge?
+What do the parameters represent in conditional likelihood?
+Skewed test set could be a serious problem, how to approach this issue?
+From the classification algorithm or from the preprocessing of the data?
+So to clarify, KNN can be used as a proxy for conditional probability of a label knowing we have the probability?
+What if the data cannot be separated by a line?
+Can you give some examples of feature construction process and how to choose the algorithms to use under some specific conditions?
+am just glad that this course is finally about to finished?
+Why can we assume these are correct?
+What if we have no prior knowledge about the data and we still want to make appropriate evaluation?
+Is there a more general measure?
+Is there a way to adapt the algorithm to draw lines in the network estimating cutoffs between different communities?
+Since a network is a constraint when constructing the generative model, how can it be expressed quantitatively or qualitatively by a user or anybody doing such an analysis?
+Why do we use a Gaussian distribution?
+What techniques can we use to determine how to partition data to determine context?
+How do you know if two nodes are close to eachother/measure the distance?
+True or False: Text can be associated with nodes of a network and subnetworks. (A) True (B) False?
+How are the term weights for the different aspect segments discovered?
+Would we be able to use a negative edge weight in the instantiation of NetPLSA?
+How accurate and useful is iterative casual topic modeling and in what situations should it be used?
+Would it be better to weight unbiased reviews more rather than accomodating ratings for biased reviews?
+What is the purpose of the regularizer function?
+How are the aspects determined?
+In addition, how do we know what words correspond to each specific aspect?
+What if we combined the idea of topic mining and opinion mining?
+what is the use for this?
+How do we analysis causality or correlation in a multiple language case?
+Why the three different colors shown in the "choose a topic" section are not perfect rectangles?
+How do we deal with mining topics with time series supervision?
+Can we maximize r(d|param) in an end-to-end fashion (without explicitly maximizing for alpha)?
+What does it mean by assume context-dependent topic coverage?
+Can context be used to partition text?
+What is the functionality for all of text categorization in real life?
+This reminds me of a neural network!?
+Would the user rating kind of be similar to a normalized weighting of items/stars?
+What does aspect i mean exactly in Latent Rating Regression?
+Any resources about learning "reviewer preference analysis" mentioned in 6.1?
+If text based prediction is based on finding patterns, how does our system understand it is own prediction when it is based on pattern recognition for what we found. In the sense, how our predictions themselves contextualized and does the system understand what it is predicting?
+Where did those ratings come from?
+do not undrstand the multivariate gaussian prior and how it works to model the weight.?
+What is stopping data mining loop to produce fake data, and ultimately have fake data feed back into the loop?
+How are views chosen for CPLSA?
+What does These Analysis do?
+Is it very efficient?
+Is there any application of it?
+In order to find the difference in the topics published by different authors in the USA vs outside USA, why is there a requirement to partition the data based on the author's affiliation, why is partitioning based on location as context not enough?
+Can we treat partitioning a set of text documents as a text clustering problem or is that not a good approach because it might not partition documents into distinct sets such as date published but into a mixed set that is a mixture of all the variables found?
+which formulas are being used in this process?
+How did we get these values?
+How can we adapt the vector space retrieval model to discover paradigmatic relations?
+What is the advantage of partitioning data for text mining?
+If we are using context to partition data, how can we be sure that the partitions used are correct else risk drawing poor conclusions?
+What is the motivation behind Mining Topics with Social Network Context?
+How does this affect the population of social media users?
+How does non-text data help when we infer values of real-world variables?
+What is the significance of the two stages used when solving Latent Aspect Rating Analysis?
+How is the content in each subnetwork characterized by the text?
+What does the number after each word indicate?
+What do the parameters represent in conditional likelihood?
+What is next examples have been given. However the input, the quality of the data plays a huge role, what are the state of the arte techniques for this?
+Or there is the hope that the model researches produce would be robust enough to do it?
+Can you please go further in depth with the split words, and how they factor in to the rest of the pipeline?
+So to clarify, what differentiates PLSA from LARA is that LARA attempts to gauge weights and ratings, whereas PLSA mainly attempts to gauge topic coverage in a document?
+What if the data cannot be separated by a line?
+Can you elaborate on how to introduce the data in times serious and get the biased topics?
+How do we determine the initial input topic model, by manual input?
+Why can we assume these are correct?
+am just wondering if we can mine non-text data with text data as context using CPLSA because it just swap the conditional likelihood.?
+Are things like metaphors something NLP has to worry about as well?
+How is R'(q) is related to the relevant documents R(q) and what information does it provide?
+Are both queries and documents elements in the vocabulary set, also what do the parameters i,m represent in documents?
+Vector Space Model: 6:21-6:44: Why is the ranking function defined as the similarity between the query vector and document vector?
+How do we determine if the classifier is over or under constrained?
+How exactly would synonyms�appear on a VSM vector model and why cannot they be in different dimensions while still having the correct meaning/connotation?
+How to solve the problem when there are multiple documents having same similarity score?
+I am still confused about the diferences between querying and browsing, can you provide some concrete examples?
+How do you know which model for "relevance" to use?
+Do different models perform better given different "types" of documents?
+What is the difference between semantic & pragmatic analysis?
+How many dimensions does one term in a VSM define?
+(A) 3 (B) 2 (C) 1 (D) 4?
+The forumla to calculate the simplest VSM is written as bit-vector+ dot product+ Bag of words; I thought we only need to calculate the dot product of the query and document?
+Which challenge is harder to settled?
+word-level ambiguity or syntactic ambiguity.?
+How do we know whether the theta we pick is optimal?
+That is, how do we know if a value makes a good theta?
+How can term weights in the space be seen differently than a query?
+What exactly is represented by the multiple subscripts for each document?
+What is the difference between POS tagging and parsing?
+Is there any case in which document selection is preferred over document ranking, or is ranking always more effective than selection?
+How are the terms chosen?
+All terms in the vocabulary?
+Then any term not in the query results in a 0 in the final sim score. Or all terms in the query?
+How do we value the importance of each word while the vector only checks for exsistance with bit vectors?
+What is the difference between query and document besides their lengths?
+What does it mean to say that "the query follows from the document"?
+Is it too restricted to formulate recommender system as a text access problem?
+What about recommending based also on images?
+(e.g. product presentation)?
+Which of the following best describes a Bag of Words?
+(A) An N-Dimensional Vector space (B) Scrabble Bag (C) Collection of terms relevant to bags?
+Will we be learning all of those methods listed or just BM25?
+It was brought up so abruptly during the lecture that I did not know if I was supposed to write those down to study later on or memorize.?
+What are these random variables that queries and documents are all observed from?
+Are they defined or arbitrary?
+What is the difference between querying and pull mode for accessing information, if both require the user to input specific keywords to search for?
+What are components of simplest vector support model?
+Why would we use each word in the vocabulary to define a dimension of the vector space?
+Would not this result in many unnecessary dimensions?
+In Axiomatic model the f(q,d) must satisfy a set of constrains. Does it mean that it have several ranking functions or it has one function with a more complex definition?
+Probabilistic inference model was something I was a bit confused on the different types of probabalistic models and how they work?
+What is the meaning of parameter lambda?
+When did NLP become famous?
+For the sentence regarding a man seeing a boy with a telescope, it is mentioned that we have a lot of background knowledge and hence it easy for us to get rid of the ambiguity. However, if we had absolutely no context of the scenario the statement is being made in, should not it be just as hard for us and a computer to understand which individual has a telescope?
+In other words, why does the disparity of understanding between us and the computer even exist in this case?
+How does the assignment of zero for every absent word in a document help in vector placement?
+What "the query follows from the document" means?
+Why is BM25 the most popular?
+How is the BOW created, and would it be preferable to reduce it to the most important words?
+If it is not preferrable, how is space optimized for N dimensions?
+Did not exactly understand in detail about POS tagging and parsing. Would be great if the professor can talk more about it.?
+How will DF and TF determine relevancy more specifically?
+Is it the larger the value they are, the more relevant the word?
+am not sure how NLP and TR related to each other exactly, is TR a part of NLP or are they completely separate from each other?
+how to define syntactic structures?
+How is the performance of each of these models benchmarked?
+Do the Vectors contain entries only for certain �key� words that the designer chooses or does it contain entries for every word?
+How do I provide the machine with context knaowedge to comp\?
+Why is similarity used to rank when queries may not exactly contain words in related documents?
+Professor use the sentence � A man saw a boy with a telescope� twice as example to explain two different concepts. First, professor says this might raise syntactic ambiguity. Later he talks about complete parsing. Is there an overlap between these two concept?
+Can professor further compare those two concept in the class?
+If N-dimensions corresponds to the words in our vocabulary, is the vector space model feasible/functional when it scales to the full size of our complete vocabulary?
+The simplest VSM ranks d2 as high as d3 and 4, which is problematic. Would a possible solution be to assign a term weight to "presidential" that is heavier than "news" and "campaign"?
+b Or to exclude common prepositions like "about" when we calculate the number of unique terms that match?
+Does Google adjust such independency in its search results?
+Should we also be increasing the frequency of a word of a different form?
+For example, in the lecture we are counting the frequency of the word presidential, so should we also take into consideration when we see the word president as well?
+What is an example of deeper NLP for complex search tasks and what does deeper NLP refer to?
+Are there ways to avoid accessing and retreiving text that has potential syntactic ambiguity?
+What is the difference between semantic analysis and pragmatic analysis since they are both about meaning of the sentence?
+What is the relationship between State of Art retrieval method and other retrieval mothods first introduced?
+Why do not we use a count for number of matches, instead of a binary 0 or 1?
+What is the particular feature that makes BM25 the most popular?
+do not quite understand the math/logic behind the equation for the Probabilistic Model. Can that definition be further explained?
+How to combine push & pull in practice?
+Why do not we take the length of document into consideration?
+What is the different between semantic analysis and pragmatic analysis?
+It seems they are all extracting meaning from text.?
+why can we build algorithm based on Probability Ranking Principle, even if it is not hold in lots of the situations?
+What is the different of Probabilistic models and Probabilistic inference model?
+If I define R=1 when d->q, there are exactly the same right?
+What are other metrics to measure similarities, or other combinations of VSM, since the combination bit-vector + dot product + BOW here is considered a simplest example?
+For the probability model, why are we using random number to determine relevancy?
+How many dimensions do we need to produce good results?
+Is the comparison of similarity (obtained from the formula) across different documents linear?
+What is N in N terms here refers to?
+Does it refer to the total number of terms that appears in the query and all exisiting documents?
+How to effectively break the tie?
+How does Zipf's law filter out the completely unrelated results?
+What is the "postings" data structure?
+What is the point of compression?
+Will the access times really be that impactful to the overall indexing?
+What if we Tokenize the terms before we make them the index, is that something that people do or would that skew how the index work and potentially give wrong data to the user?
+What does f subscript a mean and how is it calculated from the result of the function h?
+Are the doc-ids sorted with the term-ids in the "local" sort?
+How do we determine what type of function to use for the IDF?
+How exactly does adding a constant to the TF the way that BM25+ limit overpenalyzing?
+Can we get more examples of using gamma-code?
+How does the gamma-code intergar compression method work?
+I did not understand the example from the video.?
+Is the BM25 transformation the best in all cases, or should the transformation used depend on the documents being searched the the types of queries used?
+still very confused how integer compression actually reduces size of storage since some of the examples make it seem like you are using more bits than before on some inputs?
+Can you further explain why we need to compute g(t,d,q) in scoring algorithum?
+Like what is that function g() and what are the primeters t,d,q stands for.?
+How do you do gamma coding?
+Is there any way to look at something like \'93organic food campaign\'94 as its own phrase in order to differentiate one campaign from another rather than only targeting words?
+}?
+How do you determine how many unary bits there are in the encoding?
+In the ranking with TF-IDF, why is the ratio # of docs to doc frequency?
+What is Zipf�s Law used for?
+How much worse is unary/delta-encoding versus gamma-encoding for inverted index compression?
+What does the term "accumulators" actually refer to; if it is just the scores for the matching of query term to document, is it the same as the term frequency value?
+State of Art VSM Ranking Functions:Pivoted length normalization VSM and BM25?
+Why are 3 and 5 encoded as they are?
+What does aggressive mean?
+What is the purpose of passing in q to the function g?
+If I understand this correctly, t_i is the query term and d_j is the document -- so what is the purpose of q?
+Why we penalize less for long documents with more contents?
+Why the IDF Weighting function is log[(M+1)/k] instead of log[M/k]?
+What is the point of +1 here?
+Why is it (M+1) rather than M in the formula of calculating IDF?
+How does the formula come like this?
+How do we estimate or choose the appropriate value for k in BM25 formula?
+How do we go about determining an actual value for k?
+I am confused on how exactly gamma coding works?
+Would not the overhead for calculating inverse document frequency for each word be very high?
+Is that a problem in terms of vsm efficiency?
+How do we normalize the case where a document is long but its relevant content within that document is very short?
+What kind of data structure should the method use?
+How does it speed up the search?
+Is there any other problem of simplest VSM?
+What exactly does "d-gap" mean and why is it useful?
+What is dictionary and posting talking about?
+What kind of data structure should we use to store postings then?
+Or do we just not need to use any sort of data structure, and store it in some other format?
+What is the meaning of "bag-of-word with phrases"?
+I still do not understand how to compute Gamma code, and why it is better than binary.?
+Are both dictionaries and postings used to construct an inverted index, or do you use one over another based on the size of a dataset?
+How does Zipf�s law help avoid touching documents that are not in the query?
+Differences between the types of integer compression?
+Can we get some more examples on how to construct an Inverted Index and how we go about utilizing it?
+What are the variables in the Pivotal Length Normalizers referring to?
+What exactly is meant by these "score aggregators"?
+Are these the g functions?
+Are we saying that we add the frequency for the current term to the count corresponding to the document, and that is our aggregation?
+How is this block in "Local" sort being created / partitioned?
+How do tuples with different doc IDs get grouped together?
+I am very confused with this whole process.?
+confused on the ranking function, how does this function not reward multiple same word occurences?
+I was not very clear on that detail.?
+What does the prof mean when he says BM should not be a vsm but a probabilistic model?
+How did they come up with such weighting formula?
+Why it is (M+1) instead of M, does it mean the value should be greater than 1. If M=0, then k = 0, which still because an undifined error for the division.?
+How the a word in the dictionary is mapped to the position in Posting?
+Does is the delta-code use gamma-code twice recursively?
+How does stemming help in increasing the coverage of documents?
+What does coverage of documents mean and what could be some other benefits of stemming?
+Why is a log function for weight of query words in a ranking function of TF-IDF transformation better than other functions?
+Why is doc ID compression using d-gap more efficient than using the original IDs?
+When and how do we compute the average document length?
+Is Inverted Indexing a data structure or an algorithm for indexing the words in a document?
+Very vague explanation. Please explain it in more detail with more examples. What is the log based?
+2, ln or 10?
+What are some methods employed for language-specific and domain-specific tokenization?
+What functions can we use in the Vector Space Model for scoring apart from the dot product?
+Are there more sophisticated functions that improve accuracy?
+Apart from using specialized data structures for storing documents, do we in practice also use specialized hardware that makes retrieval and searching faster?
+Although I get why 3 is 101 in Omega code, I am not quite sure why 5 is 11001 (The 110 part), and how the 0 in the middle works. I hope the professor could explain more during the lecture.?
+Are both fa, fd, and fq all used to make final adjustments, and are these functions used at different points in the final adjustment?
+Can you go over the differences between the different Integer Compression Methods?
+What is the reasoning for making the first (1+logx) unary and the x-2^(logx) uniform?
+The method for encoding seem random to me.?
+How does unary code compress binary code?
+Will not unary code always be more bits than binary?
+Why is inverted index the most common type of indexing used?
+How could the IDF Weighting technique be improved to include synonyms of common words without significantly increasing time-complexity?
+Professor talks about gamma-code. Is there way to directly compute log of x rather than recognizing unary code and getting the value of log of x by plugging the unary code formula?
+How would this formula affect popular terms that should not be penalized?
+Is the main purpose of unary and gamma coding to maintain the sequential ordering of documents?
+Which algorithm is more often used in industry, BM25F or BM25+?
+How does the formula provided by Zipf�s law help avoid touching a large number of documents that do not match a query term?
+Is it possible to apply the same tokenization techniques to all languages and make a universal tokenization technique, or would each technique have to be customized for each language due to the differences in word segmentation?
+Are there situations where we do not want to use TF transformation and instead leave it as is?
+Are there other ways to define a pivot than the average length of the document?
+What is uniform code?
+How does gamma decoding work?
+We have assumed a bag of words representation. It is been said that it works fine, even though the order that connects words is lost, could you provide a more intuitive explanation on how and why is that word counting (that obviates semantics) works so well?
+What is the best way to choose the parameter k, and does it depend on the type of search or is there one preferred value?
+In looking at Zipf's Law, I came across the issue of synonyms and antonyms. If there are words that mean the same thing, but are used more in certain contexts than others (a mathematician's book vs. a fiction novel), how does the equation hold true?
+By that, I mean there are words that are considered to be rare in a certain context, but in the complete space of all words used, they maybe very frequent.?
+To clarify, long documents are penalized because there is a higher probability of matching or finding the query?
+What is the meaning of the linear relationship compared to standard IDF?
+Why b in the normalizer has to be smaller than one?
+What doest the position mean here?
+Is that an index of where the Doc start?
+how is this function actually work?
+how does epsilon-code work?
+why is it called inverted index?
+Is not it costly to decompress the document id every time since we need to iterate through the doc id?
+Would it be better to look at other words often searched with that word to combine with the query to get better results?
+For the first two steps of inverted index construction, is all documents sorted by doc ID first and then documents are splitted into groups(such as 6 docs per group), with each group sorted by term ID?
+How is the position of a term in the dictionary confirmed in the postings?
+for the notation "Term Lexicon" and "DocID Lexicon" at the right, is it corresponding to the "dictionary" and "posting"?
+Also, what is the third index of those vectors?
+Any examples of d-gap, and what is the heuristics behind this method?
+How does the gamma-code intergar compression method work?
+I did not understand the example from the video.?
+What is the meaning of postings?
+Is it just another word for inverted index?
+What are examples of good MAP and gMAP values when measuring precision?
+What are the most popular methods for statistical significance testing?
+Why is this a special case?
+How is it different from the normal method?
+I understand that the more documents the average precision does not change as much but why would be want to measure precision, if there is only one relevant document in the first place.?
+For the Parameter Variable what makes it usually set to one and when would it not be 1?
+Is it possible to use both algorithms and at runtime decide which one should be used?
+Where did they get the values p=1 and p=0.9375?
+Why do we have to use an F measure to combine precision and recall?
+Could we get more examples of Statistical Significance Testing?
+Can you explain why we use 1/r with a concrete example since I am still confused?
+which distribution are we using in this model?
+is it normal distribution?
+If it is why we choose normal?
+Are the documents that are not retrieved and not relevant used in any sort of metric?
+For example, working with homophones or something, could those irrelevant and non retrieved documents be used to measure accuracy?
+How do you get a p-value from the sign test since it is only pluses and minuses?
+What is the value of the denominator when calculating recall in test collection evaluation?
+What is the benefit of following the pooling strategy?
+If there is a trade-off between precision and recall, is there a better ranking-based system for accuracy in a selection of documents?
+When you calculate the precision in a collection, does the denominator increase each time you look at any document, even the non-relevant ones?
+And relevant document means positive ones, right?
+A little example with comparison to a google search would be really helpful!?
+How does dividing by the Ideal DCG actually normalize the DCG?
+What is the difference between Wilcoxon Test and he Sign Test?
+Why do we normalise discounted cumulative gain with the log of the document rank instead of just the rank?
+What is the base of the log used for nDCG?
+Does the base even matter here?
+what would be the effect if we set the parameter larger or less than 1?
+Why the standard method for evaluating a ranked list is quite sensitive to a small change of precision of random document?
+When calculating values for F-measure, it is necessary to have non-zero precision and recall. What would happen if the system doesnot respond well and give zero retrieved docs?
+What is the meaning of "combine all the top-k sets"?
+What is the trade-off between precision and recall while calculating F-Measure?
+Why is B better?
+Does it have less random fluctuations?
+Why do we have @k in DCG@k?
+Should not the ranking system return a ranked list of all documents?
+Why did we assume we have 9 documents rated 3 and 1 rated 2 for ideal DCG if in the example for actual DCG all the documents are ranked differently?
+Should we be assuming all documents but 1 are ranked 3 in every ideal situation?
+What is the meaning of "return top-k document"?
+When would we use binary judgements?
+Why would not we just use multi level judgements as it allows for more flexibility?
+How do you calculate the IdealDCG@10 again?
+Do you put a score of 3 (very relevant) for every document except the last one?
+What is the Wilcoxon method?
+Why do we combine the precision and recall?
+Why we need a parameter here?
+Why is the discounted cumulative gain calculated by dividing the log of the position?
+Is the discounting function always supposed to be division by log, or is this just a type of discounting function?
+What exactly does recall refer to?
+How does recall be assumed that there are 10 relevant documents in the collection?
+Is this a labeled dataset to evaluate the system because will not multiple documents pieced together make something relevant as well?
+How often do engineers use evaluation in the real world scenario?
+What is the difficulty of a query?
+Why the situation affects the choice of MAP and gMAP?
+For example, let us have a system that ranks only the top five percent of relevant documents correctly and blindly marks everything else as non-relevant. It seems like it will pass the pooling test strategy although it is not a good TR system. Therefore, I am confused about how the pooling strategy can work if it simply assumes all unjudged documents are non-relevant?
+It seems like this would be problematice for small and large datasets.?
+Why do not we do another operation like deciding which query vectors are likely to be more difficult and rare (like we did in L2) and then based on that choose to do either MAP or GMAP?
+Why is precision most important for the top ten resulted documents?
+Should precision affect the majority of documents affected?
+Which measure should be given more priority, precision or recall?
+Examples of how to carry out those tests and what does the result mean?
+What is meant by having variance across queries, do you really mean bias?
+Is it a good idea to use two completely different methods and then return the "average" of the results?
+Would this perhaps result in increased relevance and accuracy?
+Is the NDCG used to rank different methods of retrieval or is it used to actually select individual document collections?
+For the ideal DCG, do we set up an arbitrary standard of what is ideal, or the ideal situation is always when n-1 documents are very relevant?
+Why is the ideal discounted cumulative gain based on 9 documents being relevant with 10 documents rather than all 10 documents being relevant?
+Can you go into more depth of the differences between MAP and gMAP?
+Why do we have to use Precision and Recall over raw accuracy?
+do not get why the Ideal System would be a horizontal line, should not precision get higher?
+Is this F-measure similar to F-statistic in statistics?
+What is the risk associated with discarding documents that are potentially relevant?
+By "reusable", is the method independent of data/text content?
+What is the difference between an F-measure and an F1-measure besides adjusting the Beta parameter?
+How is the K determined for the judging of top-K documents, since it can vary from system to system?
+Are there situations where we do not want to normalize the DCG and instead have some queries contribute more to the average than others?
+What is the difference between MAP and gMAP?
+When performing test collection, are the initial relevance judgements determined by humans or some emperical method?
+Is there any particular reason for not computing the average recall?
+I am afraid I might be overlooking something is I want to use it to test the performance of any TR algorithm.?
+How is it possible to measure the Recall Value of a system if the number of relevant documents out of a complete set is unknown?
+How does parameter beta in F-Measure works?
+how is gMAP calculated?
+what stuffs can nDCG do but DCG cannot?
+Could you please give an example of gMAP?
+I find the concept a bit abstract.?
+Why is non changing recall count as zero when calculating the average position instead of using updated precision?
+If a user ends up reading documents that were through to be non-relevant, would not that make those documents relevant and they should then have a higher gain?
+Why is the list not sorted by most relevant?
+What is the purpose of making human assessors judge a collection of top-K documents?
+Is there only one way of discounting?
+How do you determine which estimation method would be most effective to solve a particular problem?
+How do we pick the best values to use for lambda and mu when doing the smoothing?
+am having trouble understanding why or how the R value helps NLP?
+Why is the log term of p(q|d) independent of the document?
+Why can we assume all words in a query are independent?
+Why do we ignore the last part of the log p(q | d) formula when ranking documents?
+Making the assumtion that each query word is generated independently seems weird because when a user creates a query, usually the words are not indpendent. Is anything used to try and bridge the gap between indpendently generated query words and actual queries?
+Could you further explain the doc length normalization a little bit since I do remember it should be a term as a mutiply factor instead of addition factor.?
+what is the probability exactly?
+How exactly does nlog(alpha_d) relate to doc length normalization?
+Why are there only n-1 parameters in the generative model?
+Between JM Smoothing and Dirichlet Prior Smoothing, which is better in which situation and what is the main difference between their ranking functions?
+If the user poses a query not related to the document they just observed, would not the query likelihood retrieval model be less accurate than basing results off the query itself?
+In Query Likelihood Retrieval Model, does the language model ensure that the assumed probabilities for "imaginary documents" are sufficient?
+Why would we need the statistical language model to generate words for us, instead of sequences?
+does the sequence of words matter in the query?
+Is it suggesting that querying "baseball game yesterday" is the same as querying "baseball yesterday game"?
+So what does IDF weighting have to do with this?
+am confused as to what is meant by "sampling words from a doc model". May you clarify?
+if the probability of one word is too low, will it underfloat to 0?
+If yes, how to deal with this type of question?
+Which one is better, JM smoothing or Dirichlet Prior smoothing?
+What is the difference between Jelinek-Mercer smoothing and Dirichlet prior smoothing since they have very similar forms?
+What exactly does alpha_d mean in English?
+Why do we need to log the probabilities in this formula?
+What if we do not ignore the last part of ranking?
+Why not have a standard smoothing language model?
+What Is the point of having multiple, if at the end of the day, they still assign probabilities while including unseen words?
+Which part of the formula for the ranking function with smoothing actually implements smoothing?
+Why do we assume that in our smoothing method each word that are not ovserved would have a different form of probability?
+Can we have examples on how to rank using the smoothed ranking functions?
+Why even care about query words not matched in d?
+These sums are getting confusing.?
+Is any normalization necessary for the Unigram language model?
+Why P(Wi|d) represent TF weighting?
+How does this probability add a limit/bound to the score of a certain word?
+In week3, one of the TF weighting was log(x+1), so why TF here is P(Wi|d) instead of log(P(Wi|d))?
+do not agree with the statement that "if the document is long, we need less smoothing". What if a docment is long but in a bad way, meaning that it has many repeated words (less unique words)?
+In this case, the probability of being able to observe all/more words will not increase.?
+Why do we say that the smoothing variable 'mu' is dynamic in this case?
+When exactly is the variable changing and why?
+How does it behave differently than 'lambda'?
+Why taking away the probabilitiy mass from observered words help us assign probability to words not seen in the document?
+When is Unigram LM used?
+What is the conditional probalility mean?
+Does it mean given the document guess the query which returns this document?
+And then we compute the probability of guessed query and the given document?
+What does it mean to say a user likes a document, if the query is unknown?
+(How do the user click the document if he did not enter a query?
+)?
+Why do we have N-1 parameters?
+Do not we sum up the probabilities from w1 to wN?
+Since not every query can be drawn from the documents, does that mean that query generation and query likelihood eventually become better (improving doc model) as query inputs increase?
+When doing query likelihood are there cases were the user writes the query using words that depend on previous words?
+What is the assumption we make while calculating the query likelihood?
+Poor explanation of how to derive the pseen/alpha varible, need mathematical explanation.?
+Does the smaller coefficient for longer documents i.e. lesser smoothing make it harder for models to come up with more accurate retrieval through probabilistic techniques?
+am not quite sure whether increasing mu would increase the overall likelihood of a certain word, or reduce it. It seems that mu occurs in both the denominator and the numerator of the entire equation.?
+Can you go into more detail as to how the query likelihood retrieval function works?
+do not get the notation used in the model. I understand R is the contraint, but what are d and q?
+Is there one smoothing function better or more common than the rest?
+Why would we assume each word in the query is chosen independently when users often chose entire phrases for a query at once?
+What is the meaning of rewriting the ranking function with smoothing?
+Why is lamda higher makes the common words disappear?
+According to the formula, higher lamda results more involvement of background model. Would not this favors the occurrence of more common words?
+Does this assumption still hold in production?
+It seems like we have to use this assumption to calculate the probability.?
+Is it possible to glean meaningful information about for probabilistic retrieval models from something other than clickthrough data?
+How does one choose which language model to use for a specific set of text?
+Are some LMs better for some types of texts than others?
+How does lambda affect p(w|d)?
+Are there any shortcomings of our assumption that a user formulates a query based on an imaginary relevant document?
+Since context is what somehow gives meaning to a word, and helps with ambiguity.How do we consider the meaning of words with respect to their context?
+I might be understading wrong there is not way to deal with ambiguity so far.?
+Can you please explain how you get the network and mining values using the equation?
+why you said that "The classic probabilistic model has led to the BM25 retrieval function"?
+What is the probabilistic interpretation of BM25?
+how to smooth a LM?
+why to deduce the function of Fdir?
+How do we choose the coefficient of pseudo-counts?
+On the slides it just says it should be positive.?
+Why do we need to predict the likelihood of the query?
+Or what is the usage for that?
+What is the benefit of a less heristic retrieval function?
+For the improved query likelihood with language model, do we apply background model to all query likelihood or should we only apply specific topic model?
+If we apply topic model for each document, how can we compare the query likelihood if the users actually have a cross-topic document in mind?
+What is the function of alpha here, and how to choose its value?
+How do different types of feedback integrate into different page rank algorithms?
+How are the results from PageRank and HITS integrated with the results of a vector space model or language model?
+For the equilibrium equation why is the initial term (1-a)?
+Is relevance like this always guarenteed to be a good thing?
+Why is the vector truncated when using the Rocchio formula in practice?
+How do you determine the alpha, beta, gamma terms in the Rocchio Feedback formula?
+How do we determine the alpha beta and gamma parameters when moving the query vector?
+Is there anything actually enforcing crawling coutresy or do people overload websites with crawlers if they want to?
+What are the counts of 1's exactly?
+Are the equations for hub and authority score guaranteed to converge or can they go to infinity?
+How do you compute the centroid in the Rocchio Feedback formula?
+What are the drawbacks of using the KL Divergence Retrieval Model?
+If we move the query vector to better fit the area of relevant documents, would not this be different from the original query?
+What would this new query vector mean in human readable language?
+What does it mean for a document to be negative?
+Major Crawling Strategies?
+What is the meaning of parameter lambda?
+May you explain why each word gets count of 1?
+Why are we not mapping each vocabulary word to its count instead?
+I do not understand why negative examples tend to destruct queries in all direcitons?
+why lambda=0.7 can produce more noise than lambda=0.9 according to the generative mixture model?
+How do we rank links and compare this or interleave this with ranking actual webpages?
+How to convert the existance of links between pages into the adjacency matrix?
+How can we get Query Likelihood by plugging in Query LM to KL-divergence?
+What is "topic drifting?
+" Is this the same thing as overfitting?
+What is the meaning of parameters alpha and beta?
+How are Query Likelihood and KL-divergence connected with each other?
+Do all search engines only use implicit feedback system as its the most convienient for users while giving semi-reliable results.?
+How do we determine the constant terms alpha beta in Rocchio?
+What is an inverted index means exactly?
+What does an inverted index  consist of?
+What exactly do hidden URL's mean?
+How can a programmer with minimum effort create an application that can run a large cluster in parallel?
+Is this implementable with a dictionary?
+Is the adjacency matrix just a heaviside of the pagerank?
+Like why even bother with HITS?
+Is Rocchio feedback only applicable to a 3d vector model or multidimensional vector models too?
+What are good values for alpha, beta, and gamma in the Rocchio Feedback Model?
+still do not understand: How does a high lambda value in this case make the model "more deterministic", i.e. have a proper representation of important words?
+Would not this give a greater importance to the words in the background LM?
+For the circle drawn for the top-ranked documents, how would moving the query back to some position improve the retrieval accuracy?
+How does it being close to positive vectors work intuitively?
+how did they come up with KL-divergence?
+What is the theta hat here?
+What is the difference between Q and q?
+did not quite understand pseudo relevance feedback. I did not understand the explanation of assuming the top ranked documents as relevant.?
+How do the parameters: alpha, beta and gamma control the movement we have in the concept of Rocchio feedback?
+What is the significance of each of them?
+Would not moving the query vector closer to the rest create an overfitting model?
+Need more example on HITS algorithm?
+am not sure I understand how generalizing query likelihood to KL-divergence helps in incorporating feedback into the model, could you please explain?
+Is the BFS done in parallel across independent sections of the page network?
+Also, do we start at a particular page always (like the most accessed page) or is anywhere in the network ok?
+do not quite get why the propagation scores are like this. Why d1 has a very low score while d2 has a very high score. Could you explain more?
+Can you go over how Rocchio Feedback works?
+How can Psedo Feedback be useful if the top 10 documents are assumed instead of actually judged by the user?
+Is DFS also used for crawling or just BFS?
+What type of heuristics can be applied to analyze links?
+Is it possible to find the documentation of the lower-level code for Google's MapReduce?
+How does MapReduce help with the scalability of web searching?
+Is there an element of privacy to be considered in implicit feedback?
+How much does feedback in general play a role in relevance judgement?
+Why does BFS balance server load, why does DFS not?
+How are data like clickthroughs reliable when "users" may not be real users and instead bots?
+Rocchio Feedback would be like a triplet loss?
+Does this algorithm has any relation with SVM?
+Can you please review the KL-divergence equation on the slide and explain what alpha represents?
+Which is the most common feedback retrival method used today?
+The evaluation of a IR system is depend on users. Why can we get feedback without user?
+how is Rocchio formula deduced?
+how to KL divergence retrieval model in examples?
+Can you compare a bit more between the PageRank and HITS algorithms?
+Generic Mixture Model>Kullback-Leibler Divergence Retrieval Model>Link Analysis=HIPS=PageRank>Rocchie Feedback>Web Indexing?
+Does local search engine use different methods to crawl the websites or it is the same?
+From the formula, it is hard to understand why higher lambda will lead to less common words appear on the final list.?
+What happens when there are zero entries in the matrix?
+For the new query updated by the formula, how does it look like exactly?
+Will it be a query that contains more common words amoung the relevant documents?
+What is the meaning of parameters regarding to the actual words?
+Can we transform the new query vector back to the actual words?
+why the returned results are more descriptive words of a certain topic when we do not rely much on background model often?
+Why the counter would treat the two "World" seperately?
+Lesson 6.8: 8'42"-10'04": What is an example where one would use the Pearson correlation coefficient over the Cosine Measure or vice-versa?
+How do we pick which features to use in the tuples, or how do we say one feature is more useful than another?
+What are the advantages of regression based learning?
+Why cannot we use Cranfield Evaluation methodology to train machine learning models on labeled data?
+When talking about predictions in memory based approaches, what is w(a,i) and how does it help to see differences and similarities between users?
+Are there other ways to calculate similarity in the memory-based approach formula?
+Why do we need to normalize?
+How do we determine the values for beta to use in the function and how do they modify the output?
+How exactly is lambda determined and how does its value affect the function?
+Does using ML to rank run into the issue of blackboxing the solution, so you can not really evauluate why the ML algorithim decided on a result?
+What is x=v+n?
+What do you do if you still want to recommend stuff to a user, but you do not know anything about the user?
+Could we use a a ternary classifier instead of binary in content-based filtering?
+What do companies with more complex filtering systems (such as google) implement?
+How does a system store information about a specific user's interests if the user never indicated their initial interests in a survey-type setting, like in social media (Reddit, Instagram, etc.)?
+What do the beta values represent?
+What is the data used to make the initialization module?
+Is this the users first few query searches and feedbacks?
+Please go through the formula in more detail?
+I do not quite understand?
+What is the meaning of the BM25Anchor?
+How is it related to BM25?
+Is it correct to say that the only difference between Pearson correlation coefficient and cosine measure is the normalization of the ratings?
+I do not understand why optimizing 0s and 1s do not necessarily optimize rankings?
+Why does 1 minus the probability of relevance yield the probability of non relevance?
+Is it possible that the optimal happens after zero position?
+How would it affect the choise of beta, gamma and the position of cutoff position?
+What exactly does "cold start" mean?
+How could we determine the tradeoff between exploitation and exploration if it is hard to reach a balance?
+How exactly does the filtering predict f values for other (you,o)'s?
+How do you effectively set up a filtering system with no bias.?
+How is the value of utility obtained?
+What does it mean by normalization strategy that gets the predictor rating in the same range as these ratings?
+How would the IUF impact the traditional function?
+In this case, would collaborative filtering (similarity) fall under reusability of a scorer?
+When defining a feature, do we need to constraint the frequency?
+For example if our feature is the number of overlapping terms, but we only want to consider for a specific n terms.?
+how should we decide the value of beta?
+Should the beta we choose has a greater influence on alpha than gamma and N do?
+Or in other words, overall, should beta control alpha or N and gamma control alpha?
+When estimating the beta values, how do we know that this estimation properly works exactly?
+How did they come up with the method to estimate beta?
+Why the formula use multiplication rather than addition?
+What is the difference between Meta and Vertical Search Engine in the concept umbrella of recommender systems?
+How are the beta parameters decided in the logistic function?
+Do correlated betas decrease the accuracy of the model or the importance of the ranking?
+Examples of how to carry out those tests and what does the result mean?
+What is the biased training sample problem?
+Can we rank the documents according to the maximum product of the results of the various ranking functions?
+So which user similarity measure is the most commonly used one?
+Which one has the best average performance?
+Can you explain more about how the differences between types of collaborative filtering algorthms work?
+Why do we need to use map reduce?
+How would vertical search engines detect this specialized group of users?
+How is actual user feedback incorporated to the evaluation of training data?
+How is Beta-gamma threshold learning effective compared to other methods?
+How do we implement the recommendation so that it "delivers the decison" immediately?
+How does one prevent the overlap of features themselves?
+Is it acceptable for features with overlapping terms to overlap as well?
+When using machine learning to rank, how do we know when to stop "learning"?
+Going deeper into more advanced methods and implementation including machine learning there is something concerning. The quality of the data, data is collected however is there any standard metrics or method to evaluate the quality of the data before applying less intuitive (deep learning) methods?
+How to evaluate if the problem is in the data and not in the chosen algorithm?
+can you give an example of how content-based filtering system works (for the graph)?
+How does the formula exactly work in example?
+What is the difference between pearson correlation and cosine if they are applied in measuring similarity?
+The two formulas look quite similar.?
+Still very confused about this function, why is k defined in this way?
+How does subtracting the average rating from all the ratings ensure that all ratings are fairly evaluated?
+For threshold learning, where does the initial pool of documents come from?
+Is it simply all the docments available or is there any candidates generation process for candidate documents?
+What is the functionality of alpha and beta respectively?
+Why is speech act = request the hardest thing to do for this sentence, since handling requests is a relatively straightforward task for things like Amazon Alexa or Google Drive?
+Identical words can represent different meanings; how does that play an effect in calculating similarities between words?
+Why is an entity-relation graph a good way to represent the obserable world?
+Are xi and yi supposed to be the same words?
+Why is there overlap of words in paradigmatic relation mining?
+How often are Mine Word Associations used and why do they help improve the accuracy of NLP tasks such as POS tagging?
+High-quality information and actionable knowledge are considered different, but cannot people make decisions based upon high-quality information, therefore making all knowledge somewhat actionable?
+What is the relationship between text retrieval and text mining?
+Why does not deep understanding scale?
+What is preventing it?
+Is it computational expense, or for some other reason?
+What is the bound on the number of possible contexts?
+What techniques are used for language like Chinese to represente in a sequence of word?
+Is this method similar to term appearence which is talked in the begining of the course?
+Why EOWC favors matching one frequent term very well over matching more distinct terms?
+How to address the problem of treating every word equally when calculating similarity?
+Why the probability that two randoly picked words are identical?
+Are there any other applications for Logic predicates being used in text representation?
+What algorithm is used for the logic predicates method?
+How would the IUF impact the traditional function?
+What could be a downside with using EOWC?
+Can text mining be used to predict sentiments amongst documents?
+How IDF(w) is defined?
+What does the professor mean when he says knowledge provenance?
+Does it have to do with knowledge interpretation, however it seems that representing entities is a challenge with text data and how is that going to be solved?
+It seems machine learning can do a lot of curve fitting but it seems these systems do not get context so are we even "interpreting text data" as humans do that has context or is it just a lot of curve fitting that has worked a decent amount to a current extent in today's systems?
+How are text mining and text analytics different?
+I was wondering if POS tagging and Shallow Parsing for NLP stem from similar necessities in text mining?
+Are all words that are not in a paradigmatic relation in a syntagmatic relation?
+More examples of how to represent data?
+Can we consider a syntagmatical relation to be a superset of a paradigmatical relation?
+From the definitions, if two word are related paradigmatically are not they also related syntagmatically?
+if the bag of words from the two context sentences are pseudo-documents, then what would the pseudo-query be?
+What kind of data structures would be used to add on additional levels of NLP to the sequence of words storage?
+Or would all of these structures be stored separately?
+How can we adapt the vector space retrieval model to discover paradigmatic relations?
+I do not understand why we cannot do POS tagging accurately?
+How can common sense reasoning be incorporated into NLP algorithms?
+What statistical methods combined with machine learning models work best for text data?
+What is the difference between "String" and "Words" in text representation?
+Will making data and text more concise take away from the actual content?
+Is there a choice to be made between in-depth content vs giving the users a more broad overview of the text data?
+What types of data structures are used to store this text information after its retreival?
+How can we adapt the vector space retrieval model to discover paradigmatic relations?
+When does EOWC not work well?
+What problems does mining non-text data pose with regard to storage space?
+Domain specific English could be very different from standard English, how to target those differences?
+Even with annotations it would be confusing to make a proper difference?
+Is generalization considered achiaveble in this context?
+Would the application of the formula displayed at the bottom of the slide still work even if there is a word that is identical in another document, but is from a different part of speech?
+what the "Speech Act" here means?
+How does BM25 relate to Sim?
+Can you give an example of paradigmatically related words that have syntagmatic relation with the same word?
+Is is possible for the tagging or NLP analysis successful rate increase after some machine learning?
+Can saying a sentence possibly represent any other action?
+How do we determine if a word is too similar to a word that we already picked?
+What is the defintition of conditional entropy?
+When finding the entropy to measure the randomness of a random variable X, why do you use the log base 2 of the p(X =v) and not just the probability itself?
+Why are the posterior probabilities in between the likelihood and the prior distribution?
+How does this make intuitive sense?
+Why is word prediction a binary variable instead of a continuous probability of that word occuring?
+What is theta and pi exactly?
+How are homonyms handled in the mutual information model?
+For example, the word address can be a  verb or noun, and can completely change the meaning of a sentence.?
+How would the process for discovering the topic be different if we were using Bayesian estimation instead of maximum likelihood?
+Why does knowing more information never decrease the conditional entropy?
+Seems counter intuitive.?
+How expensive is the computation task?
+Would it be better to return a variable amount of terms that represent the majority of topics in the documents rather than a selected k topical terms?
+Why is it impossible to specify probability values for all the different sequences of words?
+Why do we take the log of the probability in the entropy formula?
+How is similarity between terms determined?
+Would a dictionary/thesaurus be used for this?
+If knowing something changes the probability from 0 to 0.5, does it increase its entropy?
+Using Bayes Rule to calculate theta, where does the P(x) goes as it does not appeared in the equation?
+What exactly does maximum a posteriori estimate mean?
+When does mutual information reach its maximum in terms of reduction of entropy of Y because of knowing X?
+Should this be Pointwise Mutual Information?
+I think Mutual Information sums over all possible pairs of word types.?
+What exactly is (MAP) estimate?
+do not understand what ML estimation does.?
+Why is Lagrange function used?
+How would the IUF impact the traditional function?
+Is there a dictionary of the mutual words?
+I am trying to predict how/where these mutual values are stored.?
+Maybe not related to the course, but is entropy the same context as the entropy in physics?
+why H(Xw1|Xw2) and H(Xw1|Xw3) are comparable but H(Xw1|Xw2) and H(Xw2|Xw3) are not?
+Did not understand the explanation in the lecture very well.?
+In order to find relations in context, how do our current systems actually understand what a dog is?
+Like we understand they can find the context through these relation patterns, but do these systems understand the dog entity itself and how a dog object relates to the general world?
+Why is the estimation of probabilities depend on the data?
+Do we guess the parameters at first in order to build the model?
+Or the model is built without knowing the parameters?
+How is the second last step transformed to the last formula?
+If entropy is usually non-negative, I did not understand why are we taking a summation of negative values?
+Should't design scoring function also be concerned with the context of some topics based on the country of their origin, the age group where that topic is popular, etc?
+How does all that dynamic information fit inside "generic statistic"?
+According to the presentation the reduction entropy is actually equal, is this in terms of X given Y and Y given X or in terms of not reduced and reduced?
+Examples of how to calculate entropy and in more detail?
+What is the meaning of allows for inferring any derived value from theta?
+Can we do an analysis similar to what we did to detect Syntagmatic relations i.e. once we identify a group of words that frequently occur with each other through a syntagmatic relation, we can use that information as a basis for grouping words into terms with those appearing quite rarely with each other being related to different terms and vice versa?
+Can you explain more about how probabilistic topic models work to help analyze text?
+How can we adapt the vector space retrieval model to discover paradigmatic relations?
+Why is it bad to have zero probability of a word?
+How is it possible to create a lower bound on the probability of a word occurring using conditional entropy?
+what decide the difference between posterior and likeihood?
+Is there only one way to handle the zero problem?
+How accurate are correlated occurrences in the context of syntagmatic relations, since intuition is involved?
+How does one quantitatively measure the randomness of a random variable like Xw?
+Why is the word "the" like a completely biased coin?
+How is mutual information in Vector space model (VSM)?
+It seems that here we are comparing independent words. However in VSM, are not we somehow capturing the neighboor around the query word?
+Can you please go further in depth with the equation (listed in yellow)?
+I do not fully understand the implementation/application of it.?
+How do people come up with the formula for entropy?
+besides the median, do other local maximum points has specific meaning on the graph?
+Can you give an example of Bayesian inference?
+The meaning of the function f is pretty vague to me.?
+How do we determine the initial input topic model, by manual input?
+Why can we assume that these probabilities sum to one?
+Can we improve by using something other than completely random values for initialization?
+am having trouble comprehending the forumla and understanding each variable?
+Why does the formula work?
+How do we mix other Language Models, perhaps two Bigram Language Models?
+How does PLSA operate the same way as component mixture model?
+What is j?
+In the expectation algorithm, do we seek to minimize or maximize theta?
+(A) Maximize (B) Minimize?
+Would the normalizer for the background probability estimate be that the probability of all words from the background must sum to 1 as well?
+How accurate is ML Parameter Estimation and what can be done to improve it?
+What is the point of having a common background word, like "the", to be part of both the topic and background probability distributions?
+How does assigning high probabilities to words with high frequencies maximize likelihood?
+What do all the terms in the two equations mean in a general sense?
+How is using a mixture model more effective than removing stop words if we want to "factor out background (common) words"?
+Why does fix one components help get rid of background words?
+Is it possible that the likelihood is conituously changing so the interation cannot stop?
+How to make PLSA a generative model?
+How do we distinguish which component model is going to be chosen if we apply the PLSA mixture model?
+Why is PLSA not a generative model?
+how do we compute k parameters?
+What is the point of z in PLSA?
+What is the difference between the E step and the M step?
+Why do different components tend to assign high probability on different words?
+Can we not utilize the same method for mining K topics as we do for mining 1 topic?
+Will these Zs allow us to pull some binary classification technique on these thetas?
+Do we have bigrams and trigrams models too?
+Why we multiply all the probabilities rather than sum them?
+Could you provide examples when demonstrating the behaviors of the mixture model, especially for the 2nd and 3rd feature?
+What does "avoid competition or waste of probability mean (2nd behavior)?
+What excatly does "collboration" mean (3rd behavior)?
+In trying to figure out topics from the text, how does the system actual understand the topic itself?
+As in it getes the pattern but how is this topic extracted and how does the machine contextualize the topic?
+How did this response equation come out?
+How to guess the probabilities to ensure the it will converge at the global maximum but not a local maximum?
+Are the two curves tangent?
+How can we use the entropy function to determine common words that do not provide much content or context to our document?
+Like stop words?
+Is the probability per omega_B equal to 1/|Number of documents|?
+What does LDA do?
+Is it very efficient?
+Is there any application of it?
+How does imposing the background model prior enforce a 0 probability for models that are not consistent with the prior?
+Could you please explain the example use mentioned for the by-products P(z=0|w) of the THEM algorithm?
+To what extent can we distinguish between different topics and sentiments?
+For example, through PLSA, can we differentiate between a post appreciating the government and one criticizing it?
+I think the analysis would definitely pick up a difference but is that always the case?
+what factors would help us determine the background probability of each set?
+How can we adapt the vector space retrieval model to discover paradigmatic relations?
+What is the advantage of having a model which contains the probability of the background words, should not all the background words be treated with the same low probability?
+The probability for choosing a certain component model in the example seems somewhat arbitrary. What factors go into choosing one in a real problem setting?
+Why we take log function in PLSA formula?
+How much does the actual distribution matter in terms of the words each distribution contains?
+Is it possible to have a meaningful output using two very similar word distributions?
+Why can hill climbing only find local minimum?
+Are there any tradeoffs to using this mixed model compared to only summing one term in the product?
+What are some the strategies to ensure that THEM does not get stuck on a local max?
+Can you please go further in depth with the THEM graph?
+I am a bit confused on how the graph can be applied to various situations.?
+So to clarify, we use a mixture model, so we can have two different distributions to describe background vs. non-background words?
+How to prove that THEM algorithm will finally lead to a local minimum?
+Is the result guaranteed to converge, even if all unknow parameters are initialized randomly?
+Can you talk about why inference of these parameters using Bayes rule is intractable?
+Why are we adding the background probability if it is already a common word?
+Why can we assume that these probabilities are correct?
+What will affect the convergence rate of THEM?
+Or is the convergence rate similar for all topic models?

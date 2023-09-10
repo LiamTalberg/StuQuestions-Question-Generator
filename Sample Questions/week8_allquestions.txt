@@ -1,0 +1,73 @@
+?L8.6: 5'00"-6'10": How do we determine if a word is too similar to a word that we already picked?
+
+?L8.2: 00'00" - 1'00": What is the defintition of conditional entropy?
+
+?L8.1: 4'00"-5'35": When finding the entropy to measure the randomness of a random variable X, why do you use the log base 2 of the p(X =v) and not just the probability itself? 
+
+?L8.9: 9'19"-10'20": Why are the posterior probabilities in between the likelihood and the prior distribution? How does this make intuitive sense?
+?8.1: 3' 20"-3' 50": Why is word prediction a binary variable instead of a continuous probability of that word occuring?
+
+?L8.7: 8'39"-8'45": What is theta and pi exactly?
+?L8.3: 4'10" to 6'00": How are homonyms handled in the mutual information model? For example, the word address can be a  verb or noun, and can completely change the meaning of a sentence.      
+
+?L2.10: 5'13''-10'00'': How would the process for discovering the topic be different if we were using Bayesian estimation instead of maximum likelihood?
+
+?L8.2: 4'30"-5'20": Why does knowing more information never decrease the conditional entropy? Seems counter intuitive.
+?L8.7: 6'00"-7'30": How expensive is the computation task?
+?L8.6: 4'30"-6'00": Would it be better to return a variable amount of terms that represent the majority of topics in the documents rather than a selected k topical terms?
+
+?L8.8:2'20"-2'30": Why is it impossible to specify probability values for all the different sequences of words?
+?L2.1: 4'52"-5'01": Why do we take the log of the probability in the entropy formula?
+?L8.6: 04'45"-06'10": How is similarity between terms determined? Would a dictionary/thesaurus be used for this?
+?L2.2: 5'09"-5'31":If knowing something changes the probability from 0 to 0.5, does it increase its entropy?
+?L8.9 3'00"- 5'45": Using Bayes Rule to calculate theta, where does the P(x) goes as it does not appeared in the equation?
+?L8.9: 07'49''-08'20'':What exactly does maximum a posteriori estimate mean?
+
+?L8.3: 1'37"-3'32": When does mutual information reach its maximum in terms of reduction of entropy of Y because of knowing X?
+
+?L8.4 0'00"-8'00": Should this be Pointwise Mutual Information? I think Mutual Information sums over all possible pairs of word types. 
+
+?L8.9: 07'49''-08'20'':What exactly is (MAP) estimate?
+?I don't understand what ML estimation does.
+?L2.10 7'25"-9'00": Why is Lagrange function used?
+?L7.9: 1'23"-2'33": How would the IUF impact the traditional function? 
+?L8.3: 4'30"-6'15": Is there a dictionary of the mutual words? I'm trying to predict how/where these mutual values are stored.
+?L8.2: 3'14"-4'24": Maybe not related to the course, but is entropy the same context as the entropy in physics?
+?L2.2: 10’30” - 11’30” why H(Xw1|Xw2) and H(Xw1|Xw3) are comparable but H(Xw1|Xw2) and H(Xw2|Xw3) are not? Did not understand the explanation in the lecture very well. 
+
+?L7.8: 0'00"-2'30": In order to find relations in context, how do our current systems actually understand what a dog is? Like we understand they can find the context through these relation patterns, but do these systems understand the dog entity itself and how a dog object relates to the general world?
+?L8.4: 0'59"-1'00": Why is the estimation of probabilities depend on the data
+?L2.7: 10'07"-11'58": Do we guess the parameters at first in order to build the model? Or the model is built without knowing the parameters?
+
+?L2.10: 9'32"-9'50": How is the second last step transformed to the last formula?
+
+?L2.1: 4'33"-5'10": If entropy is usually non-negative, I didn't understand why are we taking a summation of negative values?
+
+?L8.6: 3'35"-4'44": Should't design scoring function also be concerned with the context of some topics based on the country of their origin, the age group where that topic is popular, etc? How does all that dynamic information fit inside "generic statistic"?
+
+?L2.3: 1'48"-2'22":According to the presentation the reduction entropy is actually equal, is this in terms of X given Y and Y given X or in terms of not reduced and reduced?
+
+?L8.2: 5'10"-8'47" Examples of how to calculate entropy and in more detail?
+?L8.9: 12'45''-12'58'': What is the meaning of allows for inferring any derived value from theta?
+
+?L2.6: 2'05"-7'15": Can we do an analysis similar to what we did to detect Syntagmatic relations i.e. once we identify a group of words that frequently occur with each other through a syntagmatic relation, we can use that information as a basis for grouping words into terms with those appearing quite rarely with each other being related to different terms and vice versa? 
+?L8.7: 0'00" - 5'00": Can you explain more about how probabilistic topic models work to help analyze text?
+?L7.4: 2'20"-2'35": How can we adapt the vector space retrieval model to discover paradigmatic relations?
+?L2.4: 4'00"-4'10":Why is it bad to have zero probability of a word?
+?L8.2: 5'29"-5'31": How is it possible to create a lower bound on the probability of a word occurring using conditional entropy?
+
+?L2.9 9'45 - 11'47 what decide the difference between posterior and likeihood?
+?L8.4: 2'15"-4'30": Is there only one way to handle the zero problem?
+?L8.1: 00’51”-03’10”: How accurate are correlated occurrences in the context of syntagmatic relations, since intuition is involved?
+?L2.1: 3'00"-4'00": How does one quantitatively measure the randomness of a random variable like Xw?
+?L8.1: 10'30"-10'40": Why is the word "the" like a completely biased coin? 
+
+?L8.4: 01'30"-02'15": How is mutual information in Vector space model (VSM)? It seems that here we are comparing independent words. However in VSM, aren't we somehow capturing the neighboor around the query word?
+?L8.7: 8’55”-9’35”: Can you please go further in depth with the equation (listed in yellow)? I do not fully understand the implementation/application of it.
+?L2.1:4'27"-4'47": How do people come up with the formula for entropy?
+?L8.7 11'40 - 12'10 besides the median, do other local maximum points has specific meaning on the graph?
+
+?L8.9: 10'31"-15'11": Can you give an example of Bayesian inference? The meaning of the function f is pretty vague to me.
+
+?L2.7: 8'19"-14'17": How do we determine the initial input topic model, by manual input?
+?L8.5: 6'48''-7'16'': Why can we assume that these probabilities sum to one?

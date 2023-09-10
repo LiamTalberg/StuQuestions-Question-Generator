@@ -1,0 +1,72 @@
+?L9.5: 0'00"-3'00": Can we improve by using something other than completely random values for initialization?
+
+?L9.2: 00'00" - 1'00": I am having trouble comprehending the forumla and understanding each variable? Why does the formula work?
+
+?L9.1: 11'45"-12'23": How do we mix other Language Models, perhaps two Bigram Language Models?
+?3.7: 2' 42"-3' 00": How does PLSA operate the same way as component mixture model?
+
+?L9.8: 4'32"-4'45": What is j??
+?#A# In the expectation algorithm, do we seek to minimize or maximize theta? (A) Maximize (B) Minimize     
+
+?L3.8: 7'30''-8'00'': Would the normalizer for the background probability estimate be that the probability of all words from the background must sum to 1 as well?
+?L9.9: 9'20"-10'34": How accurate is ML Parameter Estimation and what can be done to improve it?
+?L9.1 4'30"-6'00": What is the point of having a common background word, like "the", to be part of both the topic and background probability distributions?
+
+?L9.3:6'00"-6'30": How does assigning high probabilities to words with high frequencies maximize likelihood?
+?L3.5: 5'15"-5'20": What do all the terms in the two equations mean in a general sense?
+?L9.1: 00'25"-01'50": How is using a mixture model more effective than removing stop words if we want to "factor out background (common) words"?
+?L3.3: 6'57"-7'20": Why does fix one components help get rid of background words?
+?L9.4 1'06" - 2'27": Is it possible that the likelihood is conituously changing so the interation cannot stop?
+?L9.10: 1'42''-1'50'':How to make PLSA a generative model?
+?L9.7: 2'16"-3'26": How do we distinguish which component model is gonna be chosen if we apply the PLSA mixture model?
+
+?L9.10 1'00"-2'00": Why is PLSA not a generative model? 
+
+?L9.10: 4'31''-4'50'':how do we compute k parameters
+?What is the point of z in PLSA
+?L3.5 8'55"-8'59": What is the difference between the E step and the M step?
+?L3.3: 7’03”-7’29”:Why do different components tend to assign high probability on different words?
+?L9.9: 1'23"-2'33": Can we not utilize the same method for mining K topics as we do for mining 1 topic?
+?L9.4: 8'50"-10'00": Will these Zs allow us to pull some binary classification technique on these thetas?
+?L9.1: 1'12"-2'25": Do we have bigrams and trigrams models too?
+?L9.1 11'40"-12'03": Why we multiply all the probabilities rather than sum them?
+
+?L9.2 5'10"- 5'58": Could you provide examples when demonstrating the behaviors of the mixture model, especially for the 2nd and 3rd feature?  What does "avoid competition or waste of probability mean (2nd behavior)? What excatly does "collboration" mean (3rd behavior)?
+?L8.5: 0'00"-2'30":In trying to figure out topics from the text, how does the system actual understand the topic itself? As in it getes the pattern but how is this topic extracted and how does the machine contextualize the topic?
+?L9.3: 4'12"-4'13": How did this response equation come out
+?L3.4: 3'54"-4'02": How to guess the probabilities to ensure the it will converge at the global maximum but not a local maximum?
+
+?L3.6: 1'40"-2'13": Are the two curves tangent?
+
+?L9.1: 3'43"-5'37": How can we use the entropy function to determine common words that don't provide much content or context to our document? Like stop words?
+
+?L9.1 : 5'00"-5'10": Is the probability per omega_B equal to 1/|Number of documents|?
+
+?L9.10: 5'10"-8'47" What does LDA do? Is it very efficient? Is there any application of it?
+?L3.3: 7'30''-8'00'': How does imposing the background model prior enforce a 0 probability for models that are not consistent with the prior?
+
+?L3.5: 9'50''-10'27'': Could you please explain the example use mentioned for the by-products P(z=0|w) of the EM algorithm?
+
+?L3.7: 3'26"-4'31": To what extent can we distinguish between different topics and sentiments? For example, through PLSA, can we differentiate between a post appreciating the government and one criticizing it? I think the analysis would definitely pick up a difference but is that always the case?
+?9.1: 7'15"-10'00": what factors would help us determine the background probability of each set?
+?L7.4: 2'20"-2'35": How can we adapt the vector space retrieval model to discover paradigmatic relations?
+?L3.1: 1'30"-1'49": What is the advantage of having a model which contains the probability of the background words, shouldn't all the background words be treated with the same low probability?
+?L9.3: 4'07"-4'40": The probability for choosing a certain component model in the example seems somewhat arbitrary. What factors go into choosing one in a real problem setting?
+
+?L9.7: 6'54"-7'35": Why we take log function in PLSA formula?
+?L9.1: 02'20"-4'47": How much does the actual distribution matter in terms of the words each distribution contains? Is it possible to have a meaningful output using two very similar word distributions?
+?L3.2: 4'40"-4'48": Why can hill climbing only find local minimum? 
+
+?L9.1: 11'25"-12'00": Are there any tradeoffs to using this mixed model compared to only summing one term in the product?
+
+?L9.6: 03'30"-06'25": What are some the strategies to ensure that EM doesn't get stuck on a local max? 
+?L9.6: 0’40”-1’00”: Can you please go further in depth with the EM graph? I am a bit confused on how the graph can be applied to various situations.
+?L9.1: 0'11"-1'52": So to clarify, we use a mixture model, so we can have two different distributions to describe background vs. non-background words? 
+?L3.6:0'10"-0'20": How to prove that EM algorithm will finally lead to a local minimum?
+?L9.8 8'00 - 8'30 Is the result guaranteed to converge, even if all unknow parameters are initialized randomly
+
+?L9.9: 8'48"-9'32": Can you talk about why inference of these parameters using Bayes rule is intractable?
+
+?L3.1: 2'23"-5'15": Why are we adding the background probability if it is already a common word?
+?L9.5: 6'48''-7'16'': Why can we assume that these probabilities are correct?
+?L3.5: 5'30''-5'35'': What will affect the convergence rate of EM? Or is the convergence rate similar for all topic models?  

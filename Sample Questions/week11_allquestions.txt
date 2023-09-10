@@ -1,0 +1,62 @@
+?L11.2: 19'40"-21'50": What is an example of how we can combine multiple methods for these kinds of problems?
+
+?L11.2: 12'04"-13'47": What happens if we have more than two categories?
+?5.6: 4' 56"-5' 31": What's the optimal way to combine and use character n-grams, word n-grams, and POS tag n-grams?
+?L11.3: 10'19"-10'25": When should we use precision over recall and vice versa?
+?#B# True or False: In SVM classifiers, we assume beta1 > 0 and beta 2 < 0 (A) True (B) False
+?L5.7: 3'09''-5'07'': How come we do not use classifiers that split the rating search space in half, requiring only log(k) classifiers instead?
+?L11.7: 7'30"-8'15": Why do we use M+1 and k-1 in the formula for the total number parameters for independent classifiers?
+?L11.1: 11'00"-14'20": In which situations will a KNN classifier be accurate and perform better than a logistic regression classifier?
+?L11.5 10'00"-11'00": What if an opinion's context, like date or time, was considered in the natural language processing, but the opinion maker did not actually make use of that context?
+
+?L11.6:2'40"-2'50": Why does the order of the polarity categories matter?
+
+?L1.2: 1'25"-3'17": What's the meaning of parameter lambda?
+
+?L11.7: 08'35"-11'20": What is meant by "share training data"? Does this refer to the fact that beta_ji is the same for all values of j?
+?L5.4: 1'27"-3'58": What is the difference between macro and mirco avergeing of precision and the recall?
+? L11.4 3'30" - 4'30": Does human effort needed for all items in micro-averaging?
+?L11.2: 28'49''-28'57'':What else semi-supervised learning technique we can use here?
+?L11.6: 1'52"-3'34": How do we deal with the ambiguity when conducting sentiment classfication?
+?L11.2: 28'49''-28'57'':Will different type of supervised learning techniques change the final result?
+?If most of this class is based around ML, can't we use elements of AI to boost our applicability of algorithms?
+?L5.2 14'30"-14'45": how is large margin connected to (W^t)W?
+?L5.2: 7'00”-7’14”: Can sentiment classifications be treated as a categorization problem?
+?L10.9: 1'23"-2'33": What is the functionality for all of text categorization in real life?
+?L11.1: 16'30"-17'00": Is it possible to overfit K? How to find the sweet spot?
+
+?L11.2: 17'30"-'": Is C the covariance matrix? Or just a regularization parameter, and is it tuned by trial and error?
+
+?L11.1:1'12"-2'22":What are examples of text data that do not adhere to the discriminative classifier?
+?What is an example of “perform error analysis to obtain insights” to “design effective features”?
+
+? #B# In the sentence "In response to the damage of Hurricane Katrina, the governor issued a speech.", the "the governor" is the target, and  "Hurricane Katrina" is the holder. (A) True, (B) False
+?L11.6: 1'00"-3'34": For opinion mining, how does the machine understand that opinion itself when its pattern recognition model is based without understanding context without a schema because I'm assuming it just uses ML to understand the context which is curve fitting?
+?L5.2: 04’00’’-04’08’’: Why do we assume B2 to be positive and B1 to be negative?
+?L11.2: 6'48"-6'48": Why was there notation changes?
+?L5.1: 5'47"-6'26": I didn't quite understand how the probability of Y given X was re-written to get the functional form?
+?L11.6: 6'05"-9'47": How can sarcasm and cross/cultural context be detected using Unigrams?
+?L5.2: 10'13"-16'35": Are there non-linear SVM that move along different points?
+
+?L11.2: 5'10"-8'47" What is Text Categorization? What is a good Text Categorization? How it is used?
+?L5.3: 2'56''-3'50'': Why do we not consider cost of decisions while comparing different classification methods, because there can be subtle differences between the 2 methods where introducing cost of mistakes in the evaluation metric might help in actually understanding which method performs better?
+
+?L5.5: 00'00"-00'32": Is it possible to consider opinion and sentiment mining a subset of text classification? We could do it by providing the training set as classified examples of the various sentiments and opinions we see and then use the resulting model to extract information sentiments and opinions based on how our document is classified.
+?11.2: 11'30"-12'40": how exactly do we derive the general formula of i,wtx+b >= 1 based on the two formulas (>1 and <-1) on the left. What does i mean, and what does w mean (is it the surface?)?
+?L7.4: 2'20"-2'35": How can we adapt the vector space retrieval model to discover paradigmatic relations?
+?L11.: 19'20"-22'10": Use the same logic, can we apply unsupervised learning techniques on text clustering?
+?L11.1: 05'02"-15'55": How does one choose which Discriminative Classifier to use? Is it a matter of the type of data, the features, or something else?
+?L11.3: 2'12"-6'08": Is there any way to evaluate classification accuracy without the need for human involvement?
+?L11.6: 11'00"-12'00": How do you optimize the tradeoff between exhaustivity and specificity?
+?L5.4: 1'30"-1'48": Does the likelihood function always converge? 
+
+?L11.1: 9'00"-9'30": What do the parameters represent in conditional likelihood?
+
+?L11.3: 05'50"-08'10": Skewed test set could be a serious problem, how to approach this issue? From the classification algorithm or from the preprocessing of the data?  
+?L11.1: 3'15"-4'20": So to clarify, KNN can be used as a proxy for conditional probability of a label knowing we have the probability? 
+?L5.2:6'45"-7'00": What if the data cannot be separated by a line?
+?L11.6: 07'50"-08'05": Can you give some examples of feature construction process and how to choose the algorithms to use under some specific conditions?
+
+?L11.7: 2'23"-5'15": I am just glad that this course is finally about to finished?
+?L11.5: 2'48''-3'16'': Why can we assume these are correct?
+?L5.3: 5'55-6'00': What if we have no prior knowledge about the data and we still want to make appropriate evaluation? Is there a more general measure?

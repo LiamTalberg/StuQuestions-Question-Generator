@@ -1,0 +1,106 @@
+?L3.6: 3'50"-4'50": What are examples of good MAP and gMAP values when measuring precision?
+
+?L3.6: 3'0"-9'0": What are the most popular methods for statistical significance testing?
+
+?L3.4: 4'52" - 6'28": Why is this a special case? How's it different from the normal method? I understand that the more documents the average precision doesn't change as much but why would be want to measure precision, if there's only one relevant document in the first place.
+
+?L3.2: 7'22"-9'30" For the Parameter Variable what makes it usually set to one and when would it not be 1?
+?L3.3: 8'00"-9'30": Is it possible to use both algorithms and at runtime decide which one should be used?
+
+?L3.6: 6'45"-7'22": Where did they get the values p=1 and p=0.9375?
+?L3.2: 9' 16"-10' 00": Why do we have to use an F measure to combine precision and recall?
+
+?L3.6: 5'15"-9'20": Could we get more examples of Statistical Significance Testing?
+?L3.4: 7'02&quot;-8'55&quot;: Still confused about this 1/r - why take the mean of the 1/r values instead of using just one?</pre> 
+
+?L3.4 7'12''-9'09'': Can you explain why we use 1/r with a concrete example since I am still confused
+
+?L3.6: 7'23"-8'50": which distribution are we using in this model? is it normal distribution? If it is why we choose normal?
+?L3.2: 3'35" to 7'00": Are the documents that are not retrieved and not relevant used in any sort of metric? For example, working with homophones or something, could those irrelevant and non retrieved documents be used to measure accuracy?     
+
+?L3.6: 5'50''-7'00'': How do you get a p-value from the sign test since it is only pluses and minuses?
+?L3.2: 2'25"-3'33": What is the value of the denominator when calculating recall in test collection evaluation?
+?L3.6: 9'15"-12'25": What is the benefit of following the pooling strategy?
+?L3.2: 5'20"-6'30": If there is a trade-off between precision and recall, is there a better ranking-based system for accuracy in a selection of documents?
+
+?L3.3: 0'00"-2'52": When you calculate the precision in a collection, does the denominator increase each time you look at any document, even the non-relevant ones? And relevant document means positive ones, right? A little example with comparison to a google search would be really helpful!
+
+?L3.5: 9'0"-9'30": How does dividing by the Ideal DCG actually normalize the DCG? 
+?L3.6: 2'35"-9'00": What is the difference between Wilcoxon Test and he Sign Test?
+?L3.5: 4'28"-5'55": Why do we normalise discounted cumulative gain with the log of the document rank instead of just the rank?
+
+?L3.5: 04'25"-04'50": What is the base of the log used for nDCG? Does the base even matter here?
+?L3.2: 8'45"-9'11": what would be the effect if we set the parameter larger or less than 1?
+?L3.3: 13'58"-14'40": Why the standard method for evaluating a ranked list is quite sensitive to a small change of precision of random document?
+?L3.2: 7'05"-9'30": When calculating values for F-measure, it's necessary to have non-zero precision and recall. What would happen if the system doesnot respond well and give zero retrieved docs?
+
+?L3.6:10'20''-11'20'':What's the meaning of "combine all the top-k sets"?
+?L3.2: 9'50"-10'40": What is the trade-off between precision and recall while calculating F-Measure?
+
+?L3.6 7'19"-8'55": Why is B better? Does it have less random fluctuations?
+?L3.5 7'00"-9'00": Why do we have @k in DCG@k? Shouldn't the ranking system return a ranked list of all documents? 
+
+?L3.5: 6'42"-7'17": Why did we assume we have 9 documents rated 3 and 1 rated 2 for ideal DCG if in the example for actual DCG all the documents are ranked differently? Should we be assuming all documents but 1 are ranked 3 in every ideal situation?
+
+?L3.6:10'09''-10'20'':What's the meaning of "return top-k document"?
+?When would we use binary judgements? Why wouldnt we just use multi level judgements as it allows for more flexibility?
+?L3.5: 6'54"-8'12": How do you calculate the IdealDCG@10 again? Do you put a score of 3 (very relevant) for every document except the last one?
+?L3.6: 7’15”-7’25”: What is the Wilcoxon method?
+?L3.2: 7’03”-7’29”: Why do we combine the precision and recall? 
+?L3.2: 7’03”-7’14”: Why we need a parameter here?
+?L3.5: 4'30"-5'30": Why is the discounted cumulative gain calculated by dividing the log of the position?
+
+?L3.5: 6'21"-7'24": Is the discounting function always supposed to be division by log, or is this just a type of discounting function?
+?L3.2: 3'40"-6'20": What exactly does recall refer to? 
+
+?L3.2: 2'30"-4'30":How does recall be assumed that there are 10 relevant documents in the collection? Is this a labeled dataset to evaluate the system because won't multiple documents pieced together make something relevant as well?
+?L3.1: 0'45"-0'46": How often do engineers use evaluation in the real world scenario
+?L3.4: 3'40"-4'00": What is the difficulty of a query? Why the situation affects the choice of MAP and gMAP
+
+?L3.6: 11'22"-11'45": For example, let's have a system that ranks only the top five percent of relevant documents correctly and blindly marks everything else as non-relevant. It seems like it will pass the pooling test strategy although it is not a good TR system. Therefore, I am confused about how the pooling strategy can work if it simply assumes all unjudged documents are non-relevant? It seems like this would be problematice for small and large datasets.
+?L3.4: 3'45"-4'34": Why don't we do another operation like deciding which query vectors are likely to be more difficult and rare (like we did in L2) and then based on that choose to do either MAP or GMAP? 
+
+?L3.2: 6'40"-7'03": Why is precision most important for the top ten resulted documents? Should precision affect the majority of documents affected?
+
+?L3.2: 4'00"-4'20": Which measure should be given more priority, precision or recall
+?L3.6: 5'10"-8'47" Examples of how to carry out those tests and what does the result mean?
+?L3.4: 0'15''-0'30'': What is meant by having variance across queries, do you really mean bias?
+
+?L3.6: 13'00"-13'33": Is it a good idea to use two completely different methods and then return the "average" of the results? Would this perhaps result in increased relevance and accuracy?
+
+?L3.5: 9'42"-10'30": Is the NDCG used to rank different methods of retrieval or is it used to actually select individual document collections?
+?L3.5: 6'50"-7'25": For the ideal DCG, do we set up an arbitrary standard of what's ideal, or the ideal situation is always when n-1 documents are very relevant?
+
+?L3.5: 6'30"-7'16": Why is the ideal discounted cumulative gain based on 9 documents being relevant with 10 documents rather than all 10 documents being relevant?
+
+?L3.4: 0'50"-4'00": Can you go into more depth of the differences between MAP and gMAP?
+?L1.2: 2'20"-2'35": Why do we have to use Precision and Recall over raw accuracy?
+?L3.3: 8'30"-8'40": I don't get why the Ideal System would be a horizontal line, shouldn't precision get higher?
+?L3.2 Is this F-measure similar to F-statistic in statistics?
+?L3.6: 9'48"-12'25": What is the risk associated with discarding documents that are potentially relevant?
+
+?L3.1: 6'00"-6'50": By "reusable", is the method independent of data/text content?
+?L3.2: 7’03”-8’42”: What is the difference between an F-measure and an F1-measure besides adjusting the Beta parameter?
+?L3.6: 10'13"-11:27": How is the K determined for the judging of top-K documents, since it can vary from system to system?
+?L3.5: 5'55"-9'30": Are there situations where we don't want to normalize the DCG and instead have some queries contribute more to the average than others?
+?L1.1: 16:03-16:08: What is the difference between MAP and gMAP 
+
+?L3.1: 7'35"-8'30": When performing test collection, are the initial relevance judgements determined by humans or some emperical method?
+
+?L3.3: 11'40"-15'41": Is there any particular reason for not computing the average recall? I'm afraid I might be overlooking something is I want to use it to test the performance of any TR algorithm. 
+?L3.2: 1'02"-2'10": How is it possible to measure the Recall Value of a system if the number of relevant documents out of a complete set is unknown?
+
+?L3.2:7'44"-8'10": How does parameter beta in F-Measure works?
+?L3.4 4'33 - 4'50 how is gMAP calculated?
+
+?L3.5 9'50 - 10'10 what stuffs can nDCG do but DCG cannot?
+
+?L3.4: 1'30"-2'10": Could you please give an example of gMAP? I find the concept a bit abstract.
+
+?L3.3: 11'37"-15'26": Why is non changing recall count as zero when calculating the average position instead of using updated precision?
+
+?L3.5: 1'15"-2'30": If a user ends up reading documents that were through to be non-relevant, wouldn't that make those documents relevant and they should then have a higher gain? Why is the list not sorted by most relevant?
+
+?L2.6: 10'15''-10'27'': What is the purpose of making human assessors judge a collection of top-K documents?
+?L3.5: 5'20"-5'50": Is there only one way of discounting?
+
