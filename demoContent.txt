@@ -1,274 +1,255 @@
-[SOUND] This lecture is about
-natural language content analysis.
-As you see from this picture,
-this is really the first step
-to process any text data.
-Text data are in natural languages.
-So, computers have to understand
-natural languages to some extent in
-order to make use of the data, so
-that's the topic of this lecture.
-We're going to cover three things.
-First, what is natural language
-processing, which is a main technique for
-processing natural language
-to obtain understanding?
-The second is the State of the Art in NLP,
-which stands for
-natural language processing.
-Finally, we're going to cover the relation
-between natural language processing and
+[SOUND]
+In
+this lecture we give an overview
+of Text Mining and Analytics.
+First, let's define the term text mining,
+and the term text analytics.
+The title of this course is
+called Text Mining and Analytics.
+But the two terms text mining, and text
+analytics are actually roughly the same.
+So we are not really going to
+really distinguish them, and
+we're going to use them interchangeably.
+But the reason that we have chosen to use
+both terms in the title is because
+there is also some subtle difference,
+if you look at the two phrases literally.
+Mining emphasizes more on the process.
+So it gives us a error rate
+medical view of the problem.
+Analytics, on the other hand
+emphasizes more on the result,
+or having a problem in mind.
+We are going to look at text
+data to help us solve a problem.
+But again as I said, we can treat
+these two terms roughly the same.
+And I think in the literature
+you probably will find the same.
+So we're not going to really
+distinguish that in the course.
+Both text mining and
+text analytics mean that we
+want to turn text data into high quality
+information, or actionable knowledge.
+So in both cases, we
+have the problem of dealing with
+a lot of text data and we hope to.
+Turn these text data into something more
+useful to us than the raw text data.
+And here we distinguish
+two different results.
+One is high-quality information,
+the other is actionable knowledge.
+Sometimes the boundary between
+the two is not so clear.
+But I also want to say a little bit about
+these two different angles of
+the result of text field mining.
+In the case of high quality information,
+we refer to more
+concise information about the topic.
+Which might be much easier for
+humans to digest than the raw text data.
+For example, you might face
+a lot of reviews of a product.
+A more concise form of information
+would be a very concise summary
+of the major opinions about
+the features of the product.
+Positive about,
+let's say battery life of a laptop.
+Now this kind of results are very useful
+to help people digest the text data.
+And so this is to minimize a human effort
+in consuming text data in some sense.
+The other kind of output
+is actually more knowledge.
+Here we emphasize the utility
+of the information or
+knowledge we discover from text data.
+It's actionable knowledge for some
+decision problem, or some actions to take.
+For example, we might be able to determine
+which product is more appealing to us,
+or a better choice for
+a shocking decision.
+Now, such an outcome could be
+called actionable knowledge,
+because a consumer can take the knowledge
+and make a decision, and act on it.
+So, in this case text mining supplies
+knowledge for optimal decision making.
+But again, the two are not so
+clearly distinguished, so
+we don't necessarily have
+to make a distinction.
+Text mining is also
+related to text retrieval,
+which is a essential component
+in many text mining systems.
+Now, text retrieval refers to
+finding relevant information from
+a large amount of text data.
+So I've taught another separate book
+on text retrieval and search engines.
+Where we discussed various techniques for
 text retrieval.
-First, what is NLP?
-Well, the best way to
-explain it is to think about,
-if you see a text in a foreign
-language that you can't understand.
-Now, what you have to do in
-order to understand that text?
-This is basically what
-computers are facing.
-Right?
-So, looking at the simple sentence like,
-a dog is chasing a boy on the playground.
-We don't have any problems
-understanding this sentence, but
-imagine what the computer would have
-to do in order to understand it.
-For in general,
-it would have to do the following.
-First, it would have to know dog is
-a noun, chasing's a verb, et cetera.
-So, this is a code lexile analysis or
-part of speech tagging.
-And, we need to pick out the,
-the syntaxing categories of those words.
-So, that's a first step.
-After that, we're going to figure
-out the structure of the sentence.
-So for example, here it shows that a and
-dog would go together
-to form a noun phrase.
-And, we won't have dog and
-is to go first, right.
-And, there are some structures
-that are not just right.
-But, this structure shows what we might
-get if we look at the sentence and
-try to interpret the sentence.
-Some words would go together first, and
-then they will go together
-with other words.
-So here, we show we have noun phrases
-as intermediate components and
-then verb phrases.
-Finally, we have a sentence.
-And, you get this structure, we need to
-do something called a syntactic analysis,
-or parsing.
-And, we may have a parser,
-a computer program that would
-automatically create this structure.
-At this point, you would know
-the structure of this sentence, but
-still you don't know
-the meaning of the sentence.
-So, we have to go further
-through semantic analysis.
-In our mind,
-we usually can map such a sentence to what
-we already know in our knowledge base.
-And for example, you might imagine
-a dog that looks like that,
-there's a boy and
-there's some activity here.
-But for computer,
-will have to use symbols to denote that.
-All right.
-So, we would use the symbol
-d1 to denote a dog.
-And, b1 to denote a boy, and then p1
-to denote the playground, playground.
-Now, there is also a chasing
-activity that's happening here, so
-we have the relation chasing here,
-that connects all these symbols.
-So, this is how a computer would obtain
-some understanding of this sentence.
-Now from this representation, we could
-also further infer some other things,
-and we might indeed, naturally think
-of something else when we read text.
-And, this is call inference.
-So for example, if you believe
-that if someone's being chased and
-this person might be scared.
-All right.
-With this rule,
-you can see computers could also
-infer that this boy may be scared.
-So, this is some extra knowledge
-that you would infer based on
-some understanding of the text.
-You can even go further to understand the,
-why the person said this sentence.
-So, this has to do with
-the use of language.
-All right.
-This is called pragmatic analysis.
-In order to understand the speech
-actor of a sentence, all right,
-we say something to
-basically achieve some goal.
-There's some purpose there and
-this has to do with the use of language.
-In this case, the person who said
-the sentence might be reminding
-another person to bring back the dog.
-That could be one possible intent.
-To reach this level of understanding,
-we would require all these steps.
-And, a computer would have to go
-through all these steps in order to
-completely understand this sentence.
-Yet, we humans have no
-trouble with understand that.
-We instantly, will get everything,
-and there is a reason for that.
-That's because we have a large
-knowledge base in our brain, and
-we use common sense knowledge
-to help interpret the sentence.
-Computers, unfortunately,
-are hard to obtain such understanding.
-They don't have such a knowledge base.
-They are still incapable of doing
-reasoning and uncertainties.
-So, that makes natural language
-processing difficult for computers.
-But, the fundamental reason why the
-natural language processing is difficult
-for computers is simple because natural
-language has not been designed for
-computers.
-They, they, natural languages
-are designed for us to communicate.
-There are other languages designed for
-computers.
-For example, program languages.
-Those are harder for us, right.
-So, natural languages is designed to
-make our communication efficient.
-As a result,
-we omit a lot of common sense knowledge
-because we assume everyone
-knows about that.
-We also keep a lot of ambiguities
-because we assume the receiver, or
-the hearer could know how to
-discern an ambiguous word,
-based on the knowledge or the context.
-There's no need to invent a different
-word for different meanings.
-We could overload the same word with
-different meanings without the problem.
-Because of these reasons,
-this makes every step in natural language
-of processing difficult for computers.
-Ambiguity's the main difficulty, and
-common sense reasoning is often required,
-that's also hard.
-So, let me give you some
-examples of challenges here.
-Conceded the word-level ambiguities.
-The same word can have different
-syntactical categories.
+If you have taken that book,
+and you will find some overlap.
+And it will be useful To know
+the background of text retrieval
+of understanding some of
+the topics in text mining.
+But, if you have not taken that book,
+it's also fine because in this book
+on text mining and analytics, we're
+going to repeat some of the key concepts
+that are relevant for text mining.
+But they're at the high level and
+they also explain the relation between
+text retrieval and text mining.
+Text retrieval is very useful for
+text mining in two ways.
+First, text retrieval can be
+a preprocessor for text mining.
+Meaning that it can help
+us turn big text data into
+a relatively small amount
+of most relevant text data.
+Which is often what's needed for
+solving a particular problem.
+And in this sense, text retrieval
+also helps minimize human effort.
+Text retrieval is also needed for
+knowledge provenance.
+And this roughly corresponds
+to the interpretation of text
+mining as turning text data
+into actionable knowledge.
+Once we find the patterns in text data, or
+actionable knowledge, we generally
+would have to verify the knowledge.
+By looking at the original text data.
+So the users would have to have some text
+retrieval support, go back to the original
+text data to interpret the pattern or
+to better understand an analogy or
+to verify whether a pattern
+is really reliable.
+So this is a high level introduction
+to the concept of text mining,
+and the relationship between
+text mining and retrieval.
+Next, let's talk about text
+data as a special kind of data.
+Now it's interesting to
+view text data as data
+generated by humans as subjective sensors.
+So, this slide shows an analogy
+between text data and non-text data.
+And between humans as
+subjective sensors and
+physical sensors,
+such as a network sensor or a thermometer.
+So in general a sensor would
+monitor the real world in some way.
+It would sense some signal
+from the real world, and
+then would report the signal as data,
+in various forms.
+For example, a thermometer would watch
+the temperature of real world and
+then we report the temperature
+being a particular format.
+Similarly, a geo sensor would sense
+the location and then report.
+The location specification, for
+example, in the form of longitude
+value and latitude value.
+A network sends over
+the monitor network traffic,
+or activities in the network and
+are reported.
+Some digital format of data.
+Similarly we can think of
+humans as subjective sensors.
+That will observe the real world and
+from some perspective.
+And then humans will express what they
+have observed in the form of text data.
+So, in this sense, human is actually
+a subjective sensor that would also
+sense what's happening in the world and
+then express what's observed in the form
+of data, in this case, text data.
+Now, looking at the text data in
+this way has an advantage of being
+able to integrate all
+types of data together.
+And that's indeed needed in
+most data mining problems.
+So here we are looking at
+the general problem of data mining.
+And in general we would Be
+dealing with a lot of data
+about our world that
+are related to a problem.
+And in general it will be dealing with
+both non-text data and text data.
+And of course the non-text data
+are usually produced by physical senses.
+And those non-text data can
+be also of different formats.
+Numerical data, categorical,
+or relational data,
+or multi-media data like video or speech.
+So, these non text data are often
+very important in some problems.
+But text data is also very important,
+mostly because they contain
+a lot of symmetrical content.
+And they often contain
+knowledge about the users,
+especially preferences and
+opinions of users.
+So, but by treating text data as
+the data observed from human sensors,
+we can treat all this data
+together in the same framework.
+So the data mining problem is
+basically to turn such data,
+turn all the data in your actionable
+knowledge to that we can take advantage
+of it to change the real
+world of course for better.
+So this means the data mining problem is
+basically taking a lot of data as input
+and giving actionable knowledge as output.
+Inside of the data mining module,
+you can also see
+we have a number of different
+kind of mining algorithms.
+And this is because, for
+different kinds of data,
+we generally need different algorithms for
+mining the data.
 For example,
-design can be a noun or a verb.
-The word root may have multiple meanings.
-So, square root in math sense,
-or the root of a plant.
-You might be able to
-think of other meanings.
-There are also syntactical ambiguities.
-For example, the main topic of this
-lecture, natural language processing,
-can actually be interpreted in two ways,
-in terms of the structure.
-Think for a moment and
-see if you can figure that out.
-We usually think of this as
-processing of natural languages, but
-you could also think of this as you say,
-language process is natural.
-Right.
-So, this is example of syntatic ambiguity.
-Where we have different
-structures that can be
-applied to the same sequence of words.
-Another example of ambiguous
-sentence is the following,
-a man saw a boy with a telescope.
-Now, in this case, the question is,
-who had the telescope?
-All right, this is called a prepositional
-phrase attachment ambiguity,
-or PP attachment ambiguity.
-Now, we generally don't have a problem
-with these ambiguities because we have
-a lot of background knowledge to
-help us disintegrate the ambiguity.
-Another example of difficulty
-is anaphora resolution.
-So, think about the sentence like John
-persuaded Bill to buy a TV for himself.
-The question here is,
-does himself refer to John or Bill?
-So again, this is something that
-you have to use some background or
-the context to figure out.
-Finally, presupposition
-is another problem.
-Consider the sentence,
-he has quit smoking.
-Now this obviously
-implies he smoked before.
-So, imagine a computer wants to understand
-all the subtle differences and meanings.
-They would have to use a lot of
-knowledge to figure that out.
-It also would have to maintain a large
-knowl, knowledge base of odd meanings of
-words and how they are connected to our
-common sense knowledge of the word.
-So this is why it's very difficult.
-So as a result we are still not perfect.
-In fact, far from perfect in understanding
-natural languages using computers.
-So this slide sort of gives a simplified
-view of state of the art technologies.
-We can do part of speech
-tagging pretty well.
-So, I showed minus 7% accuracy here.
-Now this number is obviously
-based on a certain data set, so
-don't take this literally.
-All right, this just shows that
-we could do it pretty well.
-But it's still not perfect.
-In terms of parsing,
-we can do partial parsing pretty well.
-That means we can get noun phrase
-structures or verb phrase structure, or
-some segment of the sentence understood
-correctly in terms of the structure.
-And, in some evaluation
-results we have seen about 90%
-accuracy in terms of partial
-parsing of sentences.
-Again, I have to say, these numbers
-are relative to the data set.
-In some other data sets,
-the numbers might be lower.
-Most of existing work has been
-evaluated using news data set.
+video data might require computer
+vision to understand video content.
+And that would facilitate
+the more effective mining.
+And we also have a lot of general
+algorithms that are applicable
+to all kinds of data and those algorithms,
+of course, are very useful.
+Although, for a particular kind of data,
+we generally want to also
+develop a special algorithm.
+So this course will cover
+specialized algorithms that
+are particularly useful for
+mining text data.
+[MUSIC]
+
