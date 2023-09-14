@@ -1,8 +1,10 @@
-torch==1.7.1+cpu 
+torch==1.7.1+cpu
 torchvision==0.8.2+cpu
 allennlp==2.1.0
 allennlp-models==2.1.0
-spacy==3.5.0
-sklearn
+packaging==21.3
+pydantic
+spacy==3.0.0
+scikit-learn
 numpy
 contractions

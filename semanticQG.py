@@ -160,7 +160,9 @@ def generateQuestions(predictor, nlp, transcriptFileName):
     output.close()
 
 if __name__ == "__main__":
+
     # Initialise the SRL predictor and SpaCy models
+    print("Loading SRL and Spacy Models...")
     predictor = Predictor.from_path("structured-prediction-srl-bert.2020.12.15.tar.gz")
     nlp = spacy.load("en_core_web_sm")
     userInput = ""

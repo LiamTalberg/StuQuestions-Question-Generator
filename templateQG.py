@@ -12,7 +12,7 @@ import os
 # a fileName (used to create the output files for the templates) 
 # and the predictor (the SRL model)
 # Using these inputs it returns: 
-# the valid templates in a dictionary of the same structure as ClusteredQUestions
+# the valid templates in a dictionary of the same structure as ClusteredQuestions
 # the valid templates a singular list
 # writes the outputs to the file: questionsFileNameTemplatesClustered.txt
 def extractTemplates(clusteredQuestions, questionsFileName, predictor):
@@ -331,6 +331,7 @@ def predictCluster(kmeans, sentence, vectorizer):
 if __name__ == "__main__":
     
     # Load the SRL predictor and spacy library
+    print("Loading SRL and Spacy Models...")
     predictor = Predictor.from_path("structured-prediction-srl-bert.2020.12.15.tar.gz")
     nlp = spacy.load("en_core_web_sm")
       
