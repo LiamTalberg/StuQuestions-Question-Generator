@@ -42,6 +42,8 @@ Descriptions of Included Folders/Files:
 
 Required Format of the Input Files:
 
+- NOTE: All input files should be placed at the same level as the Python scripts.
+
 - Content File:
     - This is the file that contains the text from which questions will be generated.
     - This can be any passage of text.
@@ -53,9 +55,17 @@ Required Format of the Input Files:
     - The is the file containing the sample questions from which templates are extracted.
     - The file should contain each questions on a new line.
     - The format can be seen in "allQuestions.txt"
-
+    
 
 How to Run Semantic QG System:
+
+- NOTE: If the "structured-prediction-srl-bert.2020.12.15.tar.gz" model is not already downloaded (i.e.: not at same level as the "semanticQG.py" script):
+    - Comment out line 166.
+    - Uncomment line 167.
+    - This will download the model when the program is executed.
+    - However, this will require the model to re-downloaded every time the program is run.
+    - Thus the model can manually be downloaded from: "https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz"
+    - After downlading, place the model at the same level as the semanticQG.py script.
 
 - The code for the semantic QG system is found within "semanticQG.py"
 - The program can be executed by running "python3 semanticQG.py"
@@ -75,6 +85,14 @@ How to Run Semantic QG System:
 
 
 How to Run the Template QG System:
+
+- NOTE: If the "structured-prediction-srl-bert.2020.12.15.tar.gz" model is not already downloaded (i.e.: not at same level as the "semanticQG.py" script):
+    - Comment out line 166.
+    - Uncomment line 167.
+    - This will download the model when the program is executed.
+    - However, this will require the model to re-downloaded every time the program is run.
+    - Thus the model can manually be downloaded from: "https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz"
+    - After downlading, place the model at the same level as the semanticQG.py script.
 
 - The code for the Template QG system is found within "templateQG.py"
 - The program can be executed by running "python3 templateQG.py"
