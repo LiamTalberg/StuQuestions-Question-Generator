@@ -229,7 +229,7 @@ def contentExtract(contentFileName, nlp, predictor, clusteredTemplates, kmeans, 
     # Display some statistics
     print("Total Sentences in Transcript: " + str(totalSentences))
     print(str(numQuestions), "Questions Generated from", str(numSentences), "of the Sentences.\n")
-    print("Questions Saved to: " + questionsFileName + "TemplateQuestions.txt")
+    print("Questions Saved to: " + contentFileName + "TemplateQuestions.txt")
     
     # Close the file
     questionOutput.close()
